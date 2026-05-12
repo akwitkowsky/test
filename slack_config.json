@@ -1,0 +1,6 @@
+{
+  "slack": {
+    "reply_in_thread": false,
+    "reply_broadcast": false
+  }
+}
