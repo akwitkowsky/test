@@ -1,0 +1,15 @@
+[Unit]
+Description=Screenshot Autopilot Webhook
+After=network.target
+
+[Service]
+Type=simple
+User=YOUR_LINUX_USER
+WorkingDirectory=/path/to/this/repo
+EnvironmentFile=/path/to/this/repo/.env
+ExecStart=/path/to/venv/bin/gunicorn -w 2 -b 0.0.0.0:5000 server:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
