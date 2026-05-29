@@ -7,7 +7,9 @@
  * for everything else. There is no backend, so there's nothing else to sync.
  */
 const CACHE = 'meeting-cost-v1';
-const SHELL = ['/', '/index.html', '/manifest.webmanifest'];
+// Relative to the SW's own location, so the shell caches correctly whether the
+// app is served from the domain root or a subpath like /test/.
+const SHELL = ['./', './index.html', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -52,7 +54,7 @@ self.addEventListener('fetch', (event) => {
         })
         .catch(() => {
           // Offline navigation fallback to the cached app shell.
-          if (request.mode === 'navigate') return caches.match('/index.html');
+          if (request.mode === 'navigate') return caches.match('./index.html');
           return undefined;
         });
     })
