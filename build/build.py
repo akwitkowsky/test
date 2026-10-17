@@ -244,7 +244,7 @@ def page_head(eyebrow_uk, eyebrow_en, title_uk, title_en, intro_uk="", intro_en=
     return f"""
 <section class="page-head">
   <div class="wrap">
-    <span class="eyebrow on-dark">{t(eyebrow_uk, eyebrow_en)}</span>
+    <span class="eyebrow">{t(eyebrow_uk, eyebrow_en)}</span>
     <h1>{t(title_uk, title_en)}</h1>
     {intro}
   </div>

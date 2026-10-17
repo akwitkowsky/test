@@ -1,7 +1,9 @@
 /* Рідна Школа · Детройт — 2026 styles
    Aesthetic: warm cream paper, deep-blue gradient heroes with a faint grid and a gold glow,
    a Fraunces display serif (Literata supplies the Cyrillic glyphs) over Inter, pill buttons,
-   soft rounded cards, colour-coded icon tiles, a dark ink footer and the Ukrainian flag stripe. */
+   soft rounded cards, colour-coded icon tiles, a dark ink footer and the Ukrainian flag stripe.
+   Balance: white and cream carry the page; navy is reserved for the home hero, the donate banner,
+   primary buttons and the footer; gold marks calls to action and small accents. Light theme only. */
 
 :root {
   --cream: #fbf9f3;
@@ -39,43 +41,6 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --cream: #0a101d;
-    --surface: #121b2f;
-    --surface-2: #1a2540;
-    --ink: #eef1f8;
-    --ink-2: #b3bcd0;
-    --ink-3: #8893ab;
-    --line: #243050;
-    --line-strong: #34436b;
-    --blue-btn: #1c5bb8;
-    --accent: #8fb4ff;
-    --c-gold: #ffd861;
-    --c-emerald: #34d399;
-    --c-rose: #fb7185;
-    --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 30px rgba(0, 0, 0, 0.35);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --cream: #0a101d;
-  --surface: #121b2f;
-  --surface-2: #1a2540;
-  --ink: #eef1f8;
-  --ink-2: #b3bcd0;
-  --ink-3: #8893ab;
-  --line: #243050;
-  --line-strong: #34436b;
-  --blue-btn: #1c5bb8;
-  --accent: #8fb4ff;
-  --c-gold: #ffd861;
-  --c-emerald: #34d399;
-  --c-rose: #fb7185;
-  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 30px rgba(0, 0, 0, 0.35);
-  color-scheme: dark;
-}
-
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 @media (prefers-reduced-motion: reduce) {
@@ -95,7 +60,6 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--accent); text-underline-offset: 0.18em; }
 a:hover { color: var(--blue); }
-:root[data-theme="dark"] a:hover { color: var(--gold-soft); }
 :focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
 h1, h2, h3, h4 {
   font-family: var(--font-display);
@@ -234,14 +198,14 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .link-arrow svg { width: 16px; height: 16px; }
 
 /* Hero */
-.hero, .page-head {
+.hero {
   position: relative; overflow: hidden; color: #fff;
   background:
     radial-gradient(1200px 600px at 80% -10%, rgba(245, 184, 0, 0.18), transparent 60%),
     radial-gradient(900px 600px at -10% 30%, rgba(10, 61, 126, 0.55), transparent 60%),
     linear-gradient(180deg, #06224a 0%, #0a3d7e 60%, #0c1424 100%);
 }
-.hero::before, .page-head::before {
+.hero::before {
   content: ""; position: absolute; inset: 0; pointer-events: none;
   background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
   background-size: 60px 60px;
@@ -414,9 +378,9 @@ figure.doc figcaption { padding: 0.8rem 0.5rem 0.3rem; font-size: 0.88rem; color
 
 /* Exams */
 .exam-featured { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.85rem; margin-bottom: 3rem; }
-.exam-featured a { display: block; padding: 1.4rem 1rem; border-radius: 20px; text-align: center; text-decoration: none; color: #fff; font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; background: linear-gradient(135deg, var(--blue), var(--blue-deep)); box-shadow: var(--shadow-soft); transition: transform 0.3s ease; }
-.exam-featured a:hover { transform: translateY(-3px); color: #fff; }
-.exam-featured a small { display: block; margin-top: 0.25rem; font-family: var(--font-body); font-size: 0.72rem; letter-spacing: 0.12em; color: var(--gold-soft); font-weight: 500; }
+.exam-featured a { display: block; padding: 1.4rem 1rem; border-radius: 20px; text-align: center; text-decoration: none; color: var(--ink); font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--gold); box-shadow: var(--shadow-soft); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.exam-featured a:hover { transform: translateY(-3px); box-shadow: var(--shadow-lift); color: var(--blue); }
+.exam-featured a small { display: block; margin-top: 0.25rem; font-family: var(--font-body); font-size: 0.72rem; letter-spacing: 0.12em; color: var(--ink-3); font-weight: 600; }
 .exam-year { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; margin-bottom: 0.7rem; }
 .exam-year summary { cursor: pointer; padding: 1rem 1.3rem; font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; list-style: none; display: flex; justify-content: space-between; align-items: center; }
 .exam-year summary::-webkit-details-marker { display: none; }
@@ -461,11 +425,12 @@ figure.doc figcaption { padding: 0.8rem 0.5rem 0.3rem; font-size: 0.88rem; color
 .donate-actions .btn-gold { font-weight: 700; }
 .donate small { display: block; margin-top: 0.4rem; font-size: 0.78rem; color: rgba(255, 255, 255, 0.55); }
 
-/* Inner page hero */
-.page-head > .wrap { position: relative; z-index: 1; padding-block: clamp(3rem, 7vw, 5.5rem) clamp(3.5rem, 8vw, 6rem); }
-.page-head h1 { color: #fff; font-size: clamp(2.2rem, 1.3rem + 3.6vw, 3.8rem); margin: 0.9rem 0 0; }
-.page-head p { color: rgba(255, 255, 255, 0.78); max-width: 42rem; margin: 1.1rem 0 0; font-size: 1.1rem; }
-.page-head::after { content: ""; position: absolute; inset: auto 0 0 0; height: 36px; background: linear-gradient(180deg, transparent, var(--cream)); pointer-events: none; }
+/* Inner page header: light, so navy stays an accent */
+.page-head { position: relative; overflow: hidden; color: var(--ink); background: radial-gradient(800px 320px at 92% -20%, rgba(245, 184, 0, 0.2), transparent 65%), radial-gradient(700px 300px at 0% 120%, rgba(10, 61, 126, 0.07), transparent 65%), var(--surface); border-bottom: 1px solid var(--line); }
+.page-head::before { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(rgba(10, 61, 126, 0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(10, 61, 126, 0.045) 1px, transparent 1px); background-size: 60px 60px; -webkit-mask-image: radial-gradient(ellipse at 80% 20%, #000 10%, transparent 70%); mask-image: radial-gradient(ellipse at 80% 20%, #000 10%, transparent 70%); }
+.page-head > .wrap { position: relative; z-index: 1; padding-block: clamp(2.5rem, 6vw, 4.5rem) clamp(2.5rem, 6vw, 4.25rem); }
+.page-head h1 { color: var(--ink); font-size: clamp(2.2rem, 1.3rem + 3.6vw, 3.8rem); margin: 0.9rem 0 0; }
+.page-head p { color: var(--ink-2); max-width: 42rem; margin: 1.1rem 0 0; font-size: 1.1rem; }
 
 /* Contact */
 .contact-list { display: grid; gap: 1.5rem; margin-top: 2rem; }
