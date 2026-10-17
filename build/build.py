@@ -85,6 +85,16 @@ ICONS = {
     "play": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m10 8 6 4-6 4z"/></svg>',
 }
 
+ICONS.update({
+    "arrow": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>',
+    "heart": '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg>',
+    "menu": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>',
+    "mail": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg>',
+    "facebook": '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.5-2 2-2h2V2c-.5-.1-1.8-.2-3-.2-3 0-5 1.7-5 5v3.2H6v4h3V22h4Z"/></svg>',
+    "clock": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>',
+    "pin": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>',
+})
+
 FAVICON_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <rect width="64" height="64" rx="14" fill="#0f2a5c"/>
 <rect x="8" y="8" width="48" height="48" rx="10" fill="#e3b23c"/>
@@ -100,33 +110,45 @@ NAV = [
     ("lessons.html", "Матеріали", "Resources"),
     ("contact.html", "Контакт", "Contact"),
 ]
-NAV_CTA = ("registration.html", "Реєстрація", "Register")
+
+
+def promo():
+    n = news[0]
+    iso = news_iso(n)
+    return f"""
+<div class="promo">
+  <div class="wrap">
+    <p><span class="flag" aria-hidden="true"></span><span class="t"><b>{t("Новина", "News")}</b> · {esc(news_title(n))} · {t(date_uk(iso), date_en(iso))}</span></p>
+    <a href="{PAYPAL}" rel="noopener">{t("Підтримати школу", "Support the school")}{ICONS['arrow']}</a>
+  </div>
+</div>"""
 
 
 def header():
-    links = "".join(
-        f'<a href="{href}">{t(uk, en)}</a>' for href, uk, en in NAV
-    )
+    links = "".join(f'<a href="{href}">{t(uk, en)}</a>' for href, uk, en in NAV)
+    links += f'<a class="nav-reg" href="registration.html">{t("Реєстрація", "Register")}</a>'
     return f"""
 <a class="skip-link" href="#main">{t("Перейти до змісту", "Skip to content")}</a>
-<header class="site-header">
+{promo()}
+<header class="site-header" id="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="index.html" aria-label="Рідна Школа — головна">
       <span class="brand-mark" aria-hidden="true">РШ</span>
       <span class="brand-text">
-        <strong>{t("Рідна Школа · Детройт", "Ridna Shkola · Detroit")}</strong>
-        <span>{t("Школа Українознавства Т-ва «Рідна Школа»", "School of Ukrainian Language and Culture")}</span>
+        <strong>{t("Рідна Школа", "Ridna Shkola")}</strong>
+        <span>{t("Школа українознавства · Детройт", "Ukrainian school · Detroit")}</span>
       </span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">{t("Меню", "Menu")}</button>
-    <nav class="site-nav" id="site-nav" aria-label="Головна навігація">
-      {links}
-      <a class="cta" href="{NAV_CTA[0]}">{t(NAV_CTA[1], NAV_CTA[2])}</a>
+    <nav class="site-nav" id="site-nav" aria-label="Головна навігація">{links}</nav>
+    <div class="header-actions">
       <div class="lang-switch" role="group" aria-label="Мова / Language">
         <button type="button" data-lang="uk" aria-pressed="true">UA</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
-    </nav>
+      <a class="btn btn-line" href="registration.html">{t("Реєстрація", "Register")}</a>
+      <a class="btn btn-blue" href="{PAYPAL}" rel="noopener">{ICONS['heart']}<span>{t("Пожертва", "Donate")}</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Меню / Menu">{ICONS['menu']}</button>
+    </div>
   </div>
 </header>
 """
@@ -135,45 +157,50 @@ def header():
 def footer():
     return f"""
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <h3>{t("Школа", "School")}</h3>
-        <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
-        <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
-        <p><a href="{FACEBOOK}" rel="noopener">Facebook</a> · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-      </div>
-      <div>
-        <h3>{t("Сторінки", "Pages")}</h3>
-        <ul>
-          <li><a href="about.html">{t("Про школу", "About the school")}</a></li>
-          <li><a href="parents.html">{t("Для батьків", "For parents")}</a></li>
-          <li><a href="registration.html">{t("Реєстрація та оплата", "Registration and payments")}</a></li>
-          <li><a href="homework.html">{t("Домашні завдання", "Homework")}</a></li>
-          <li><a href="calendar.html">{t("Календар", "Calendar")}</a></li>
-          <li><a href="handbook.html">{t("Шкільний правильник", "Student handbook")}</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>{t("Навчання", "Learning")}</h3>
-        <ul>
-          <li><a href="lessons.html">{t("Лекції: культура, історія, література", "Lessons: culture, history, literature")}</a></li>
-          <li><a href="exams.html">{t("Матура / письмові іспити", "Final exams (Matura)")}</a></li>
-          <li><a href="downloads.html">{t("Корисні ресурси", "Useful resources")}</a></li>
-          <li><a href="https://www.shkilnarada.org/" rel="noopener">{t("Шкільна Рада УККА", "Ukrainian Education Council (UCCA)")}</a></li>
-          <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Internet Encyclopedia of Ukraine</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3>{t("Підтримати", "Support")}</h3>
-        <p class="lang-uk">Рідна Школа існує завдяки батькам, учителям-волонтерам і жертводавцям громади.</p>
-        <p class="lang-en">Ridna Shkola runs thanks to parents, volunteer teachers and donors from the community.</p>
-        <a class="btn btn-navy" href="{PAYPAL}" rel="noopener">{t("Пожертва", "Donate")}</a>
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">РШ</span>
+        <span class="brand-text"><strong>{t("Рідна Школа", "Ridna Shkola")}</strong><span>{t("Школа українознавства · Детройт", "Ukrainian school · Detroit")}</span></span>
+      </a>
+      <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
+      <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
+      <div class="social">
+        <a href="{FACEBOOK}" rel="noopener" aria-label="Facebook">{ICONS['facebook']}</a>
+        <a href="mailto:{EMAIL}" aria-label="Email">{ICONS['mail']}</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© {YEAR} {t("Школа Українознавства Т-ва «Рідна Школа», Детройт", "School of Ukrainian Language and Culture, Detroit")}</span>
-      <span><a href="{OLD_SITE}" rel="noopener">{t("Архів новин (попередній сайт)", "News archive (previous site)")}</a></span>
+    <div>
+      <h3>{t("Меню", "Menu")}</h3>
+      <ul>
+        <li><a href="about.html">{t("Про школу", "About the school")}</a></li>
+        <li><a href="parents.html">{t("Для батьків", "For parents")}</a></li>
+        <li><a href="registration.html">{t("Реєстрація та оплата", "Registration and payments")}</a></li>
+        <li><a href="homework.html">{t("Домашні завдання", "Homework")}</a></li>
+        <li><a href="calendar.html">{t("Календар", "Calendar")}</a></li>
+        <li><a href="handbook.html">{t("Шкільний правильник", "Student handbook")}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>{t("Навчання", "Learning")}</h3>
+      <ul>
+        <li><a href="lessons.html">{t("Лекції та матеріали", "Lessons and materials")}</a></li>
+        <li><a href="exams.html">{t("Матура / іспити", "Final exams (Matura)")}</a></li>
+        <li><a href="downloads.html">{t("Корисні ресурси", "Useful resources")}</a></li>
+        <li><a href="https://www.shkilnarada.org/" rel="noopener">{t("Шкільна Рада УККА", "Education Council (UCCA)")}</a></li>
+        <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Encyclopedia of Ukraine</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>{t("Контакт", "Contact")}</h3>
+      <p style="margin-top:0">{t("Воррен, Мічиган", "Warren, Michigan")}<br>{t("Щосуботи, 9:15 – 13:15", "Saturdays, 9:15 am – 1:15 pm")}<br><a href="mailto:{EMAIL}">{EMAIL}</a></p>
+      <a class="btn btn-gold" href="{PAYPAL}" rel="noopener">{ICONS['heart']}{t("Пожертва", "Donate")}</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>© {YEAR} {t("Школа Українознавства Т-ва «Рідна Школа», Детройт", "School of Ukrainian Language and Culture, Detroit")} · <a href="{OLD_SITE}" rel="noopener">{t("Архів новин", "News archive")}</a></span>
+      <span class="glory"><span class="flag" aria-hidden="true"></span>Слава Україні · Glory to Ukraine</span>
     </div>
   </div>
 </footer>
@@ -193,11 +220,11 @@ def layout(slug, title_uk, title_en, desc, body):
 <meta property="og:type" content="website">
 <meta property="og:locale" content="uk_UA">
 <meta property="og:locale:alternate" content="en_US">
-<meta name="theme-color" content="#0f2a5c">
+<meta name="theme-color" content="#0a3d7e">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Literata:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -217,7 +244,7 @@ def page_head(eyebrow_uk, eyebrow_en, title_uk, title_en, intro_uk="", intro_en=
     return f"""
 <section class="page-head">
   <div class="wrap">
-    <p class="eyebrow">{t(eyebrow_uk, eyebrow_en)}</p>
+    <span class="eyebrow on-dark">{t(eyebrow_uk, eyebrow_en)}</span>
     <h1>{t(title_uk, title_en)}</h1>
     {intro}
   </div>
@@ -275,128 +302,204 @@ def news_card(item):
 
 
 # ---------------------------------------------------------------- home
+LEVELS = [
+    ("Дошкілля", "Preschool", "Дошкілля", "Preschool", "Групи «а» і «б»: знайомство з українською мовою через гру.", "Groups A and B: first steps in Ukrainian through play.", "var(--gold)"),
+    ("1–4 клас", "Grades 1–4", "Початкова школа", "Early grades", "Читання, письмо й розмова. У більшості класів є паралельні групи «а» і «б».", "Reading, writing and speaking. Most grades run parallel A and B groups.", "var(--blue)"),
+    ("5–8 клас", "Grades 5–8", "Середня школа", "Middle grades", "Мова й література, історія та народознавство. Групи «а» і «б» у 6 і 7 класах.", "Language and literature, history and folk studies. Grades 6 and 7 have A and B groups.", "#059669"),
+    ("9–11 клас", "Grades 9–11", "Старша школа", "Upper grades", "Мова, література, історія, культура й географія. У 11 класі учні складають матуру.", "Language, literature, history, culture and geography. Grade 11 sits the matura exams.", "#e11d48"),
+]
+
+YEAR_COLORS = [("#0a3d7e", "#06224a"), ("#f5b800", "#b45309"), ("#047857", "#064e3b"), ("#be123c", "#881337"),
+               ("#334155", "#0f172a"), ("#4338ca", "#312e81"), ("#0e7490", "#164e63"), ("#a21caf", "#701a75"), ("#57534e", "#292524")]
+
+
 def home():
-    latest = news[:6]
-    cards = "".join(news_card(n) for n in latest)
+    feat = news[0]
+    fiso = news_iso(feat)
+    feature = f"""
+      <div class="feature">
+        <div class="feature-img">
+          <img src="{feat['local']}" alt="" width="{feat.get('w', 600)}" height="{feat.get('h', 900)}">
+          <span class="feature-badge"><i></i>{t("Нове оголошення", "Latest announcement")}</span>
+          <div class="feature-title">{esc(news_title(feat))}</div>
+        </div>
+        <div class="feature-foot">
+          <div><div class="k">{t("Дата", "Date")}</div><div class="v">{t(date_uk(fiso), date_en(fiso))}</div></div>
+          <a class="btn btn-dark" href="{esc(feat['url'])}" rel="noopener">{t("Переглянути", "View")}{ICONS['arrow']}</a>
+        </div>
+      </div>"""
     hero = f"""
 <section class="hero">
   <div class="wrap hero-inner">
     <div>
-      <p class="eyebrow">{t("Школа Українознавства Товариства «Рідна Школа» · Детройт, Мічиган", "School of Ukrainian Language and Culture · Detroit, Michigan")}</p>
-      <h1 class="lang-uk">Вчимо дітей бути українцями. Уже 75 років, щосуботи.</h1>
-      <h1 class="lang-en">Raising Ukrainian kids in Michigan. Seventy-five years of Saturdays.</h1>
-      <p class="lede lang-uk">Українська мова, література, історія, географія та культура для дітей від дошкілля до 11 класу. Навчання веде досвідчений педагогічний колектив.</p>
-      <p class="lede lang-en">Ukrainian language, literature, history, geography and culture for children from preschool through grade 11, taught by an experienced faculty.</p>
+      <span class="pill"><span class="dot"></span>{t("Детройт · Воррен, Мічиган", "Detroit · Warren, Michigan")}</span>
+      <h1 class="lang-uk">Вчимо дітей бути <span class="gradient-text">українцями.</span> Уже 75 років, щосуботи.</h1>
+      <h1 class="lang-en">Raising Ukrainian kids in Michigan. <span class="gradient-text">Seventy-five years</span> of Saturdays.</h1>
+      <p class="lede lang-uk">Школа Українознавства Товариства «Рідна Школа»: українська мова, література, історія, географія та культура для дітей від дошкілля до 11 класу. Навчаємо з <b>1951 року</b>.</p>
+      <p class="lede lang-en">The School of Ukrainian Language and Culture of the Ridna Shkola Society: language, literature, history, geography and culture for children from preschool through grade 11. Teaching since <b>1951</b>.</p>
       <div class="hero-actions">
-        <a class="btn btn-gold" href="registration.html">{t("Реєстрація на 2026–27 рік", "Register for 2026–27")}</a>
-        <a class="btn btn-ghost" href="homework.html">{t("Домашні завдання", "This week's homework")}</a>
+        <a class="btn btn-gold btn-lg" href="registration.html">{t("Реєстрація на 2026–27", "Register for 2026–27")}{ICONS['arrow']}</a>
+        <a class="btn btn-glass btn-lg" href="homework.html">{t("Домашні завдання", "Homework")}</a>
+        <a class="btn btn-lg" style="color:rgba(255,255,255,.85)" href="about.html">{t("Про школу", "About us")}</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="n">75</div><div class="l">{t("років навчання", "years of teaching")}</div></div>
+        <div><div class="n">12</div><div class="l">{t("рівнів: дошкілля та 1–11 класи", "levels: preschool and grades 1–11")}</div></div>
+        <div><div class="n">33</div><div class="l">{t("навчальні суботи щороку", "school Saturdays a year")}</div></div>
       </div>
     </div>
-    <aside class="hero-card" aria-labelledby="facts-h">
-      <h2 id="facts-h">{t("Шкільний день", "The school day")}</h2>
-      <ul class="fact-list">
-        <li><b>{t("Коли", "When")}</b><span>{t("Щосуботи, 9:15 – 13:15", "Saturdays, 9:15 am – 1:15 pm")}</span></li>
-        <li><b>{t("Рік", "Year")}</b><span>{t("33 навчальні дні: з першої суботи після Дня Праці до червня", "33 school days: first Saturday after Labor Day through June")}</span></li>
-        <li><b>{t("Класи", "Grades")}</b><span>{t("Дошкілля – 11 клас, матура в 11 класі", "Preschool – grade 11, with matura exams in grade 11")}</span></li>
-        <li><b>{t("Де", "Where")}</b><span>{t("Воррен, Мічиган", "Warren, Michigan")}</span></li>
-      </ul>
-    </aside>
-  </div>
-</section>
-<div class="vyshyvka" aria-hidden="true"></div>
-"""
-    quick = f"""
-<section class="section">
-  <div class="wrap">
-    <div class="quick-grid">
-      <a class="quick" href="homework.html">{ICONS['pen']}<span><strong>{t("Домашні завдання", "Homework")}</strong><span class="desc">{t("Щотижневі завдання для кожного класу у форматі PDF", "Weekly assignments for every class, as PDFs")}</span></span></a>
-      <a class="quick" href="calendar.html">{ICONS['calendar']}<span><strong>{t("Шкільний календар", "School calendar")}</strong><span class="desc">{t("Навчальні дні, свята та вихідні на 2026–27 рік", "School days, holidays and breaks for 2026–27")}</span></span></a>
-      <a class="quick" href="parents.html">{ICONS['users']}<span><strong>{t("Для батьків", "For parents")}</strong><span class="desc">{t("Форми, список підручників і шкільного приладдя", "Forms, textbook list and school supplies")}</span></span></a>
-      <a class="quick" href="registration.html">{ICONS['form']}<span><strong>{t("Реєстрація та оплата", "Registration and payments")}</strong><span class="desc">{t("Онлайн-форма реєстрації та інформація про оплату", "Online registration form and tuition information")}</span></span></a>
-      <a class="quick" href="handbook.html">{ICONS['book']}<span><strong>{t("Шкільний правильник", "Student handbook")}</strong><span class="desc">{t("Правила учнів, затверджені 31 серпня 2026 року", "Student rules, approved August 31, 2026")}</span></span></a>
-      <a class="quick" href="exams.html">{ICONS['award']}<span><strong>{t("Матура", "Final exams")}</strong><span class="desc">{t("Письмові матуральні іспити 2007–2025 для підготовки", "Written matura exams 2007–2025 for practice")}</span></span></a>
+    <div>{feature}
     </div>
   </div>
 </section>
 """
+    strip = f"""
+<section class="strip" aria-label="Швидкі посилання / Quick links">
+  <div class="wrap">
+    <div class="strip-grid">
+      <a class="quick" href="registration.html"><span class="tile">{ICONS['users']}</span><span><strong>{t("Реєстрація", "Registration")}</strong><span class="desc">{t("Зареєструйте дитину на 2026–27", "Enroll your child for 2026–27")}</span></span></a>
+      <a class="quick" href="homework.html"><span class="tile tile-gold">{ICONS['pen']}</span><span><strong>{t("Домашні завдання", "Homework")}</strong><span class="desc">{t("PDF для кожного класу, щотижня", "A PDF for every class, weekly")}</span></span></a>
+      <a class="quick" href="calendar.html"><span class="tile tile-emerald">{ICONS['calendar']}</span><span><strong>{t("Календар", "Calendar")}</strong><span class="desc">{t("Навчальні дні, свята, вихідні", "School days, holidays, breaks")}</span></span></a>
+      <a class="quick" href="{PAYPAL}" rel="noopener"><span class="tile tile-rose">{ICONS['heart']}</span><span><strong>{t("Пожертва", "Donate")}</strong><span class="desc">{t("Підтримайте школу та її учнів", "Support the school and its students")}</span></span></a>
+    </div>
+  </div>
+</section>
+"""
+    about = f"""
+<section class="section" id="about">
+  <div class="wrap split">
+    <div class="sticky">
+      <span class="eyebrow">{t("Про школу", "About the school")}</span>
+      <h2 style="margin-top:.75rem">{t("Школа, де діти <em style='font-style:normal;color:var(--accent)'>ростуть</em> українцями", "A school where children <em style='font-style:normal;color:var(--accent)'>grow up</em> Ukrainian")}</h2>
+      <p class="lead lang-uk">Рідна Школа обігріває своєю любов’ю не одне покоління українців на американській землі. Тут батьки довіряють учителям найдорожче: своїх дітей, яких навчають рідної мови, культури та історії.</p>
+      <p class="lead lang-en">For generations, Ridna Shkola has been where Ukrainian American families bring their children to learn their language, culture and history from teachers who treat them as their own.</p>
+      <blockquote class="quote">
+        <span class="lang-uk">«Навчити її бути українцями на чужині».</span>
+        <span class="lang-en">"To teach them to be Ukrainian abroad."</span>
+        <cite>{t("М. Дольницький та І. Білоус, засновники школи", "M. Dolnytsky and I. Bilous, founders of the school")}</cite>
+      </blockquote>
+      <a class="link-arrow" href="about.html">{t("Читати про школу", "Read about the school")}{ICONS['arrow']}</a>
+    </div>
+    <div class="values">
+      <div class="card value"><span class="tile tile-solid tile-blue">{ICONS['pen']}</span><h3>{t("Мова", "Language")}</h3><p>{t("Читання, письмо та розмова українською від дошкілля до 11 класу.", "Reading, writing and speaking Ukrainian from preschool to grade 11.")}</p></div>
+      <div class="card value"><span class="tile tile-solid tile-gold">{ICONS['book']}</span><h3>{t("Історія й географія", "History and geography")}</h3><p>{t("Лекції з історії та географії України, що завершуються матурою.", "Lectures on Ukrainian history and geography, leading up to the matura.")}</p></div>
+      <div class="card value"><span class="tile tile-solid tile-emerald">{ICONS['award']}</span><h3>{t("Культура й звичаї", "Culture and customs")}</h3><p>{t("Народознавство, одяг, їжа та свята: від Святвечора до вишиванки.", "Folk studies, clothing, food and holidays, from Sviat Vechir to the vyshyvanka.")}</p></div>
+      <div class="card value"><span class="tile tile-solid tile-rose">{ICONS['users']}</span><h3>{t("Громада", "Community")}</h3><p>{t("Свято Першого Дзвоника, Свято Букварика, зустрічі, концерти й живі лекції.", "The First Bell celebration, Bukvaryk festival, guest talks, concerts and live lectures.")}</p></div>
+    </div>
+  </div>
+</section>
+"""
+    levels_html = "".join(
+        f"""<a class="level" style="--bar:{bar}" href="homework.html">
+          <div class="k">{t(k_uk, k_en)}</div>
+          <div class="big">{t(big_uk, big_en)}</div>
+          <p>{t(d_uk, d_en)}</p>
+          <span class="go">{t("Завдання для класу", "Class homework")}{ICONS['arrow']}</span>
+        </a>"""
+        for k_uk, k_en, big_uk, big_en, d_uk, d_en, bar in
+        [(l[3] if False else l[2], l[3], l[0], l[1], l[4], l[5], l[6]) for l in LEVELS]
+    )
+    levels = f"""
+<section class="section section-alt" id="levels">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">{t("Класи", "Grades")}</span>
+        <h2>{t("Дванадцять рівнів, одна подорож", "Twelve levels, one journey")}</h2>
+      </div>
+      <p>{t("Від першого слова в дошкіллі до матури в 11 класі: щотижневі завдання та лекції для кожного класу.", "From the first words in preschool to the matura in grade 11, with weekly assignments and lectures for every class.")}</p>
+    </div>
+    <div class="levels">{levels_html}</div>
+  </div>
+</section>
+"""
+    cards = "".join(news_card(n) for n in news[:6])
     newsec = f"""
 <section class="section" id="news">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <p class="eyebrow">{t("Новини", "News")}</p>
+        <span class="eyebrow">{t("Новини", "News")}</span>
         <h2>{t("Оголошення та події", "Announcements and events")}</h2>
       </div>
-      <a class="btn btn-outline" href="{FACEBOOK}" rel="noopener">{t("Більше на Facebook", "More on Facebook")}</a>
+      <a class="btn btn-line" href="{FACEBOOK}" rel="noopener">{t("Більше на Facebook", "More on Facebook")}{ICONS['arrow']}</a>
     </div>
     <div class="news-grid">{cards}</div>
   </div>
 </section>
 """
-    about = f"""
-<section class="section">
-  <div class="wrap split">
+    day = f"""
+<section class="section section-alt" id="day">
+  <div class="wrap split even">
     <div>
-      <p class="eyebrow">{t("Про школу", "About")}</p>
-      <h2>{t("Понад 75 років на американській землі", "More than 75 years in Michigan")}</h2>
-      <p class="lang-uk measure">Школа українознавства «Рідна Школа» м. Детройту обігріває своєю любов’ю не одне покоління українців. Тут батьки довіряють учителям найдорожче: своїх дітей, яких навчають рідної мови, культури, історії та національних надбань народу.</p>
-      <p class="lang-en measure">For generations, Ridna Shkola in Detroit has been where Ukrainian American families bring their children to learn their language, culture and history from teachers who treat them as their own.</p>
-      <blockquote class="quote">
-        <span class="lang-uk">«Метою школи українознавства є і буде забезпечення систематичного виховання молоді поза Україною, а також збереження її від процесу денаціоналізації та навчити її бути українцями на чужині».</span>
-        <span class="lang-en">"The purpose of the School of Ukrainian Studies is, and will remain, to give young people outside Ukraine a systematic upbringing, to guard them from losing their national identity, and to teach them to be Ukrainian abroad."</span>
-        <cite>{t("М. Дольницький та І. Білоус, засновники школи", "M. Dolnytsky and I. Bilous, founders of the school")}</cite>
-      </blockquote>
-      <a class="btn btn-navy" href="about.html">{t("Читати про школу", "Read about the school")}</a>
+      <span class="eyebrow">{t("Шкільний день", "The school day")}</span>
+      <h2 style="margin-top:.75rem">{t("Щосуботи, з 9:15 до 13:15", "Every Saturday, 9:15 am to 1:15 pm")}</h2>
+      <p class="lead lang-uk">П’ять 45-хвилинних занять і велика перерва. Приміщення відкрите з 9:00; день розпочинається і закінчується молитвою.</p>
+      <p class="lead lang-en">Five 45-minute periods and a long break. Doors open at 9:00 am; the day begins and ends with a prayer.</p>
+      <div class="panel" style="padding:.5rem 1rem">
+        <table class="timetable">
+          <thead><tr><th>{t("Урок", "Period")}</th><th>{t("Початок", "Starts")}</th></tr></thead>
+          <tbody>
+            <tr><td class="n">I</td><td>9:15</td></tr>
+            <tr><td class="n">II</td><td>10:00</td></tr>
+            <tr><td class="n">III</td><td>10:45</td></tr>
+            <tr class="break"><td class="n">—</td><td>{t("Велика перерва 11:25 – 11:45", "Long break 11:25 – 11:45")}</td></tr>
+            <tr><td class="n">IV</td><td>11:45</td></tr>
+            <tr><td class="n">V</td><td>12:30</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div>
-      <h3>{t("Розклад суботи", "Saturday timetable")}</h3>
-      <table class="timetable">
-        <thead><tr><th>{t("Урок", "Period")}</th><th>{t("Початок", "Starts")}</th></tr></thead>
-        <tbody>
-          <tr><td class="n">I</td><td>9:15</td></tr>
-          <tr><td class="n">II</td><td>10:00</td></tr>
-          <tr><td class="n">III</td><td>10:45</td></tr>
-          <tr><td class="n">—</td><td>{t("Велика перерва 11:25 – 11:45", "Lunch break 11:25 – 11:45")}</td></tr>
-          <tr><td class="n">IV</td><td>11:45</td></tr>
-          <tr><td class="n">V</td><td>12:30</td></tr>
-        </tbody>
-      </table>
-      <p class="small muted" style="margin-top:0.75rem">{t("П’ять 45-хвилинних занять. Приміщення відкрите з 9:00; день розпочинається і закінчується молитвою.", "Five 45-minute periods. Doors open at 9:00; the day opens and closes with a prayer.")}</p>
+      <div class="embed">
+        <iframe src="{CALENDAR_EMBED_AGENDA}" title="Google Calendar: Рідна Школа" loading="lazy" style="min-height:520px"></iframe>
+        <div class="embed-note">{t("Найближчі дати.", "Upcoming dates.")} <a href="calendar.html">{t("Повний календар", "Full calendar")}</a> · <a href="https://calendar.google.com/calendar/u/0/embed?src={CALENDAR_ID}" rel="noopener">{t("відкрити в Google Calendar", "open in Google Calendar")}</a></div>
+      </div>
     </div>
   </div>
 </section>
 """
-    cal = f"""
-<section class="section">
+    years = sorted(exams, reverse=True)[:9]
+    pos = [("30%", "20%"), ("70%", "30%"), ("50%", "70%"), ("40%", "30%"), ("60%", "60%"), ("30%", "50%"), ("50%", "30%"), ("70%", "60%"), ("20%", "40%")]
+    ycards = "".join(
+        f'<a class="year-card" href="exams.html" style="--a:{YEAR_COLORS[i][0]};--b:{YEAR_COLORS[i][1]};--x:{pos[i][0]};--y:{pos[i][1]}"><span class="y"><b>{y}</b><span>{t("Матура · іспити", "Matura · exams")} →</span></span></a>'
+        for i, y in enumerate(years)
+    )
+    matura = f"""
+<section class="section" id="matura">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <p class="eyebrow">{t("Календар", "Calendar")}</p>
-        <h2>{t("Найближчі дати", "Upcoming dates")}</h2>
+        <span class="eyebrow">{t("Матура", "Final exams")}</span>
+        <h2>{t("Архів письмових іспитів", "Archive of written exams")}</h2>
       </div>
-      <a class="btn btn-outline" href="calendar.html">{t("Повний календар", "Full calendar")}</a>
+      <p>{t("Мова, література, історія, географія й культура: іспити за кожен рік, щоб випускники могли підготуватися.", "Language, literature, history, geography and culture: exams from every year, so graduating students can practise.")}</p>
     </div>
-    <div class="embed">
-      <iframe src="{CALENDAR_EMBED_AGENDA}" title="Google Calendar: Рідна Школа" loading="lazy"></iframe>
-      <div class="embed-note">{t("Якщо календар не відображається,", "If the calendar does not load,")} <a href="https://calendar.google.com/calendar/u/0/embed?src={CALENDAR_ID}" rel="noopener">{t("відкрийте його в Google Calendar", "open it in Google Calendar")}</a>.</div>
-    </div>
+    <div class="years">{ycards}</div>
   </div>
 </section>
 """
     donate = f"""
-<section class="band">
+<section class="section" style="padding-top:0" id="donate">
   <div class="wrap">
-    <div>
-      <p class="eyebrow">{t("Підтримка", "Support")}</p>
-      <h2>{t("Підтримайте Рідну Школу", "Support Ridna Shkola")}</h2>
-      <p class="lang-uk measure">Оплата за навчання є другорядною вимогою: школа завжди готова допомогти родинам із матеріальними труднощами та дітям, чиї батьки воюють або загинули, захищаючи Україну. Ваша пожертва робить це можливим.</p>
-      <p class="lang-en measure">Tuition is never a barrier: the school helps families in financial need and the children of parents serving or fallen in defense of Ukraine. Your donation makes that possible.</p>
+    <div class="donate">
+      <div class="donate-inner">
+        <div>
+          <span class="eyebrow on-dark">{t("Підтримка", "Support")}</span>
+          <h2>{t("Підтримайте Рідну Школу", "Support Ridna Shkola")}</h2>
+          <p class="lang-uk">Оплата за навчання є другорядною вимогою: школа допомагає родинам із матеріальними труднощами та дітям, чиї батьки воюють або загинули, захищаючи Україну. Ваша пожертва робить це можливим.</p>
+          <p class="lang-en">Tuition is never a barrier: the school helps families in financial need and the children of parents serving or fallen in defense of Ukraine. Your donation makes that possible.</p>
+        </div>
+        <div class="donate-actions">
+          <a class="btn btn-gold" href="{PAYPAL}" rel="noopener"><span>{t("Пожертвувати через PayPal", "Donate with PayPal")}</span>{ICONS['arrow']}</a>
+          <a class="btn btn-glass" href="registration.html#help"><span>{t("Допомога з оплатою", "Help with tuition")}</span>{ICONS['arrow']}</a>
+        </div>
+      </div>
     </div>
-    <a class="btn btn-gold" href="{PAYPAL}" rel="noopener">{t("Пожертвувати через PayPal", "Donate with PayPal")}</a>
   </div>
 </section>
 """
-    return hero + quick + newsec + about + cal + donate
+    return hero + strip + about + levels + newsec + day + matura + donate
 
 
 # ---------------------------------------------------------------- about
@@ -406,7 +509,7 @@ def about():
                      "The School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit celebrated its 75th anniversary in 2026.")
     body += f"""
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap split wide-left">
     <div class="measure">
       <div class="lang-uk">
         <p>Вже понад 75 років школа українознавства «Рідна Школа» м. Детройту обігріває своєю любов’ю не одне покоління українців на американській землі. Саме тут батьки довіряють нашим вчителям найдорожче: своїх дітей, їхнє майбутнє, у надійні руки досвідчених педагогів, котрі вміло навчають їх рідної мови, культури, історії та національних надбань народу.</p>
@@ -479,8 +582,8 @@ def parents():
           <li>{t("Щотижня перевіряйте домашні завдання на сайті.", "Check homework on the site every week.")}</li>
         </ol>
         <div style="display:flex;flex-wrap:wrap;gap:0.6rem;margin-top:1.25rem">
-          <a class="btn btn-navy" href="calendar.html">{t("Календар", "Calendar")}</a>
-          <a class="btn btn-outline" href="homework.html">{t("Домашні завдання", "Homework")}</a>
+          <a class="btn btn-blue" href="calendar.html">{t("Календар", "Calendar")}</a>
+          <a class="btn btn-line" href="homework.html">{t("Домашні завдання", "Homework")}</a>
         </div>
       </div>
     </div>
@@ -512,7 +615,7 @@ def registration():
                      "Register your child for the 2026–27 school year online. The paper form and tuition details are below.")
     body += f"""
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap split wide-left">
     <div>
       <h2>{t("Онлайн-форма реєстрації", "Online registration form")}</h2>
       <div class="embed">
@@ -532,11 +635,11 @@ def registration():
         <img src="assets/img/registration-form-2026-27.jpg" alt="Реєстраційна форма та оплата на 2026–27 рік" width="791" height="1024" loading="lazy">
         <figcaption>{t("Реєстраційна форма з інформацією про оплату, 2026–27.", "Registration form with tuition information, 2026–27.")}</figcaption>
       </figure>
-      <div class="panel" style="margin-top:1.25rem">
+      <div class="panel" id="help" style="margin-top:1.25rem">
         <h3>{t("Допомога з оплатою", "Help with tuition")}</h3>
         <p class="lang-uk small">Оплата за навчання є другорядною вимогою. Рідна Школа завжди готова допомогти родинам, котрі мають матеріальні труднощі, та надає допомогу учням, батьки яких воюють, воювали у ЗСУ чи загинули, захищаючи Батьківщину. Звертайтесь до дирекції.</p>
         <p class="lang-en small">Tuition should never stop a child from attending. The school supports families in financial need and the children of parents who serve, served, or died defending Ukraine. Please speak with the administration.</p>
-        <a class="btn btn-outline" href="contact.html">{t("Контакт", "Contact")}</a>
+        <a class="btn btn-line" href="contact.html">{t("Контакт", "Contact")}</a>
       </div>
     </div>
   </div>
@@ -586,7 +689,7 @@ def calendar_page():
                      "School Saturdays, holidays and breaks. Weather or other closures are announced by email and on Facebook.")
     body += f"""
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap split wide-left">
     <div>
       <div class="embed">
         <iframe src="{CALENDAR_EMBED}&mode=MONTH" title="Google Calendar: Рідна Школа, місяць" loading="lazy" style="min-height:640px"></iframe>
@@ -674,6 +777,7 @@ def grouped(items, default_group):
 
 
 def lesson_list(items):
+    items = [it for it in items if "dropbox.com" not in it["u"]]  # linked once at the top of the section
     return '<ul class="lesson-list">' + "".join(
         f'<li><a href="{esc(it["u"])}" rel="noopener">{esc(it["t"])}</a></li>' for it in items
     ) + "</ul>"
@@ -695,10 +799,10 @@ def lessons_page():
 <section class="section">
   <div class="wrap">
     <div class="quick-grid" style="margin-bottom:2.5rem">
-      <a class="quick" href="#culture">{ICONS['book']}<span><strong>{t("Культура", "Culture")}</strong><span class="desc">{t("Лекції для 8–11 класів", "Lectures for grades 8–11")}</span></span></a>
-      <a class="quick" href="#history">{ICONS['book']}<span><strong>{t("Історія", "History")}</strong><span class="desc">{t("Лекції для 7–8 класів", "Lectures for grades 7–8")}</span></span></a>
-      <a class="quick" href="#literature">{ICONS['play']}<span><strong>{t("Література", "Literature")}</strong><span class="desc">{t("Аудіокниги шкільної програми", "Audiobooks from the curriculum")}</span></span></a>
-      <a class="quick" href="exams.html">{ICONS['award']}<span><strong>{t("Матура", "Final exams")}</strong><span class="desc">{t("Письмові іспити 2007–2025", "Written exams 2007–2025")}</span></span></a>
+      <a class="quick" href="#culture"><span class=\"tile\">{ICONS['book']}</span><span><strong>{t("Культура", "Culture")}</strong><span class="desc">{t("Лекції для 8–11 класів", "Lectures for grades 8–11")}</span></span></a>
+      <a class="quick" href="#history"><span class=\"tile\">{ICONS['book']}</span><span><strong>{t("Історія", "History")}</strong><span class="desc">{t("Лекції для 7–8 класів", "Lectures for grades 7–8")}</span></span></a>
+      <a class="quick" href="#literature"><span class=\"tile\">{ICONS['play']}</span><span><strong>{t("Література", "Literature")}</strong><span class="desc">{t("Аудіокниги шкільної програми", "Audiobooks from the curriculum")}</span></span></a>
+      <a class="quick" href="exams.html"><span class=\"tile\">{ICONS['award']}</span><span><strong>{t("Матура", "Final exams")}</strong><span class="desc">{t("Письмові іспити 2007–2025", "Written exams 2007–2025")}</span></span></a>
     </div>
     <h2 id="culture">{t("Лекції: культура", "Lessons: culture")}</h2>
     <p class="small muted">{t("Ці лекції також доступні у форматі PowerPoint:", "These lectures are also available as PowerPoint files:")} <a href="https://www.dropbox.com/sh/0bujc2vksqqsp7e/AACJj03YHC5Cn3kVMV0WDNgSa?dl=0" rel="noopener">Dropbox</a></p>
@@ -810,7 +914,7 @@ def handbook_page():
                      "Rules for students of the School of Ukrainian Language and Culture, updated and approved by the faculty on August 31, 2026.")
     body += f"""
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap split toc-right">
     <article class="handbook measure">
       <p class="lang-en muted">The handbook is published in Ukrainian. Parents and students sign a form confirming they have read it and will follow it, and return the form with registration.</p>
       {"".join(out)}
@@ -840,38 +944,23 @@ def contact_page():
                      "The school office is open on Saturdays during classes. Facebook and email are the fastest ways to reach us.")
     body += f"""
 <section class="section">
-  <div class="wrap">
-    <div class="contact-grid">
-      <div class="contact-item">
-        <h3>{t("Електронна пошта", "Email")}</h3>
-        <div class="big"><a id="email-text" href="mailto:{EMAIL}">{EMAIL}</a><button class="copy-btn" type="button" data-copy="{EMAIL}" data-done="✓" aria-controls="email-text">{t("Копіювати", "Copy")}</button></div>
-      </div>
-      <div class="contact-item">
-        <h3>Facebook</h3>
-        <div class="big"><a href="{FACEBOOK}" rel="noopener">{t("Школа Українознавства «Рідна Школа» м. Детройт", "Ridna Shkola Detroit")}</a></div>
-        <p class="small muted" style="margin:0.5rem 0 0">{t("Оголошення про відміну занять з’являються тут першими.", "Closure announcements are posted here first.")}</p>
-      </div>
-      <div class="contact-item">
-        <h3>{t("Коли", "When")}</h3>
-        <div class="big">{t("Субота, 9:15 – 13:15", "Saturday, 9:15 am – 1:15 pm")}</div>
-        <p class="small muted" style="margin:0.5rem 0 0">{t("Воррен, Мічиган. Приміщення відкрите з 9:00.", "Warren, Michigan. Doors open at 9:00 am.")}</p>
-      </div>
-      <div class="contact-item">
-        <h3>{t("Дирекція", "Administration")}</h3>
-        <div class="big">{t("Дирекція Рідної Школи", "Ridna Shkola administration")}</div>
-        <p class="small muted" style="margin:0.5rem 0 0">{t("За довідками звертайтесь до шкільного бюро в суботу.", "For questions, visit the school office on Saturday.")}</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="section">
-  <div class="wrap split">
+  <div class="wrap split even">
     <div>
-      <h2>{t("Педагогічний колектив", "Our faculty")}</h2>
-      <p class="lang-uk measure">Педагогічний колектив Школи Українознавства Товариства «Рідна Школа» м. Детройту. Контактну інформацію учителів батьки отримують на початку навчального року.</p>
-      <p class="lang-en measure">The faculty of the School of Ukrainian Language and Culture in Detroit. Parents receive teachers' contact details at the start of the school year.</p>
+      <span class="eyebrow">{t("Наша школа", "Our school")}</span>
+      <h2 style="margin-top:.75rem">{t("Завітайте до нас у Воррен", "Visit us in Warren")}</h2>
+      <p class="lead lang-uk">Ми навчаємося щосуботи під час шкільного року у Воррені, штат Мічиган, неподалік Детройта. Зв’яжіться з нами, щоб дізнатися про реєстрацію, допомогу з оплатою чи вільні місця в класах.</p>
+      <p class="lead lang-en">We meet every Saturday of the school year in Warren, Michigan, just north of Detroit. Get in touch about registration, tuition help or open places in a class.</p>
+      <div class="contact-list">
+        <div class="contact-row"><span class="tile">{ICONS['mail']}</span><div><div class="k">{t("Електронна пошта", "Email")}</div><div class="v"><a id="email-text" href="mailto:{EMAIL}">{EMAIL}</a><button class="copy-btn" type="button" data-copy="{EMAIL}" data-done="✓" aria-controls="email-text">{t("Копіювати", "Copy")}</button></div></div></div>
+        <div class="contact-row"><span class="tile tile-gold">{ICONS['facebook']}</span><div><div class="k">Facebook</div><div class="v"><a href="{FACEBOOK}" rel="noopener">{t("Школа Українознавства «Рідна Школа» м. Детройт", "Ridna Shkola Detroit")}</a></div><div class="small muted">{t("Оголошення про відміну занять з’являються тут першими.", "Closure announcements are posted here first.")}</div></div></div>
+        <div class="contact-row"><span class="tile tile-emerald">{ICONS['clock']}</span><div><div class="k">{t("Коли", "When")}</div><div class="v">{t("Щосуботи, 9:15 – 13:15", "Saturdays, 9:15 am – 1:15 pm")}</div><div class="small muted">{t("Приміщення відкрите з 9:00.", "Doors open at 9:00 am.")}</div></div></div>
+        <div class="contact-row"><span class="tile tile-rose">{ICONS['pin']}</span><div><div class="k">{t("Де", "Where")}</div><div class="v">{t("Воррен, Мічиган", "Warren, Michigan")}</div><div class="small muted">{t("За довідками звертайтесь до шкільного бюро.", "For questions, visit the school office.")}</div></div></div>
+      </div>
     </div>
-    <img src="assets/img/teachers.jpg" alt="Педагогічний колектив Рідної Школи м. Детройту" width="1024" height="819" loading="lazy" style="border-radius:var(--radius)">
+    <figure class="doc">
+      <img src="assets/img/teachers.jpg" alt="Педагогічний колектив Рідної Школи м. Детройту" width="1024" height="819" loading="lazy">
+      <figcaption>{t("Педагогічний колектив Школи Українознавства «Рідна Школа» м. Детройту. Контакти вчителів батьки отримують на початку навчального року.", "The faculty of Ridna Shkola in Detroit. Parents receive teachers' contact details at the start of the school year.")}</figcaption>
+    </figure>
   </div>
 </section>
 """

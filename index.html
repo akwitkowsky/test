@@ -10,34 +10,42 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="uk_UA">
 <meta property="og:locale:alternate" content="en_US">
-<meta name="theme-color" content="#0f2a5c">
+<meta name="theme-color" content="#0a3d7e">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Literata:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <a class="skip-link" href="#main"><span class="lang-uk">Перейти до змісту</span><span class="lang-en">Skip to content</span></a>
-<header class="site-header">
+
+<div class="promo">
+  <div class="wrap">
+    <p><span class="flag" aria-hidden="true"></span><span class="t"><b><span class="lang-uk">Новина</span><span class="lang-en">News</span></b> · «Пустіть дітей приходити до Мене, не бороніть їм · <span class="lang-uk">15 жовтня 2026</span><span class="lang-en">October 15, 2026</span></span></p>
+    <a href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="lang-uk">Підтримати школу</span><span class="lang-en">Support the school</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+  </div>
+</div>
+<header class="site-header" id="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="index.html" aria-label="Рідна Школа — головна">
       <span class="brand-mark" aria-hidden="true">РШ</span>
       <span class="brand-text">
-        <strong><span class="lang-uk">Рідна Школа · Детройт</span><span class="lang-en">Ridna Shkola · Detroit</span></strong>
-        <span><span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа»</span><span class="lang-en">School of Ukrainian Language and Culture</span></span>
+        <strong><span class="lang-uk">Рідна Школа</span><span class="lang-en">Ridna Shkola</span></strong>
+        <span><span class="lang-uk">Школа українознавства · Детройт</span><span class="lang-en">Ukrainian school · Detroit</span></span>
       </span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="lang-uk">Меню</span><span class="lang-en">Menu</span></button>
-    <nav class="site-nav" id="site-nav" aria-label="Головна навігація">
-      <a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></a><a href="parents.html"><span class="lang-uk">Батькам</span><span class="lang-en">Parents</span></a><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a><a href="lessons.html"><span class="lang-uk">Матеріали</span><span class="lang-en">Resources</span></a><a href="contact.html"><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></a>
-      <a class="cta" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Головна навігація"><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></a><a href="parents.html"><span class="lang-uk">Батькам</span><span class="lang-en">Parents</span></a><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a><a href="lessons.html"><span class="lang-uk">Матеріали</span><span class="lang-en">Resources</span></a><a href="contact.html"><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></a><a class="nav-reg" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a></nav>
+    <div class="header-actions">
       <div class="lang-switch" role="group" aria-label="Мова / Language">
         <button type="button" data-lang="uk" aria-pressed="true">UA</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
-    </nav>
+      <a class="btn btn-line" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a>
+      <a class="btn btn-blue" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg><span><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Меню / Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
   </div>
 </header>
 
@@ -46,39 +54,102 @@
 <section class="hero">
   <div class="wrap hero-inner">
     <div>
-      <p class="eyebrow"><span class="lang-uk">Школа Українознавства Товариства «Рідна Школа» · Детройт, Мічиган</span><span class="lang-en">School of Ukrainian Language and Culture · Detroit, Michigan</span></p>
-      <h1 class="lang-uk">Вчимо дітей бути українцями. Уже 75 років, щосуботи.</h1>
-      <h1 class="lang-en">Raising Ukrainian kids in Michigan. Seventy-five years of Saturdays.</h1>
-      <p class="lede lang-uk">Українська мова, література, історія, географія та культура для дітей від дошкілля до 11 класу. Навчання веде досвідчений педагогічний колектив.</p>
-      <p class="lede lang-en">Ukrainian language, literature, history, geography and culture for children from preschool through grade 11, taught by an experienced faculty.</p>
+      <span class="pill"><span class="dot"></span><span class="lang-uk">Детройт · Воррен, Мічиган</span><span class="lang-en">Detroit · Warren, Michigan</span></span>
+      <h1 class="lang-uk">Вчимо дітей бути <span class="gradient-text">українцями.</span> Уже 75 років, щосуботи.</h1>
+      <h1 class="lang-en">Raising Ukrainian kids in Michigan. <span class="gradient-text">Seventy-five years</span> of Saturdays.</h1>
+      <p class="lede lang-uk">Школа Українознавства Товариства «Рідна Школа»: українська мова, література, історія, географія та культура для дітей від дошкілля до 11 класу. Навчаємо з <b>1951 року</b>.</p>
+      <p class="lede lang-en">The School of Ukrainian Language and Culture of the Ridna Shkola Society: language, literature, history, geography and culture for children from preschool through grade 11. Teaching since <b>1951</b>.</p>
       <div class="hero-actions">
-        <a class="btn btn-gold" href="registration.html"><span class="lang-uk">Реєстрація на 2026–27 рік</span><span class="lang-en">Register for 2026–27</span></a>
-        <a class="btn btn-ghost" href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">This week's homework</span></a>
+        <a class="btn btn-gold btn-lg" href="registration.html"><span class="lang-uk">Реєстрація на 2026–27</span><span class="lang-en">Register for 2026–27</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        <a class="btn btn-glass btn-lg" href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a>
+        <a class="btn btn-lg" style="color:rgba(255,255,255,.85)" href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About us</span></a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="n">75</div><div class="l"><span class="lang-uk">років навчання</span><span class="lang-en">years of teaching</span></div></div>
+        <div><div class="n">12</div><div class="l"><span class="lang-uk">рівнів: дошкілля та 1–11 класи</span><span class="lang-en">levels: preschool and grades 1–11</span></div></div>
+        <div><div class="n">33</div><div class="l"><span class="lang-uk">навчальні суботи щороку</span><span class="lang-en">school Saturdays a year</span></div></div>
       </div>
     </div>
-    <aside class="hero-card" aria-labelledby="facts-h">
-      <h2 id="facts-h"><span class="lang-uk">Шкільний день</span><span class="lang-en">The school day</span></h2>
-      <ul class="fact-list">
-        <li><b><span class="lang-uk">Коли</span><span class="lang-en">When</span></b><span><span class="lang-uk">Щосуботи, 9:15 – 13:15</span><span class="lang-en">Saturdays, 9:15 am – 1:15 pm</span></span></li>
-        <li><b><span class="lang-uk">Рік</span><span class="lang-en">Year</span></b><span><span class="lang-uk">33 навчальні дні: з першої суботи після Дня Праці до червня</span><span class="lang-en">33 school days: first Saturday after Labor Day through June</span></span></li>
-        <li><b><span class="lang-uk">Класи</span><span class="lang-en">Grades</span></b><span><span class="lang-uk">Дошкілля – 11 клас, матура в 11 класі</span><span class="lang-en">Preschool – grade 11, with matura exams in grade 11</span></span></li>
-        <li><b><span class="lang-uk">Де</span><span class="lang-en">Where</span></b><span><span class="lang-uk">Воррен, Мічиган</span><span class="lang-en">Warren, Michigan</span></span></li>
-      </ul>
-    </aside>
+    <div>
+      <div class="feature">
+        <div class="feature-img">
+          <img src="assets/img/news/news-21513.jpg" alt="" width="600" height="900">
+          <span class="feature-badge"><i></i><span class="lang-uk">Нове оголошення</span><span class="lang-en">Latest announcement</span></span>
+          <div class="feature-title">«Пустіть дітей приходити до Мене, не бороніть їм</div>
+        </div>
+        <div class="feature-foot">
+          <div><div class="k"><span class="lang-uk">Дата</span><span class="lang-en">Date</span></div><div class="v"><span class="lang-uk">15 жовтня 2026</span><span class="lang-en">October 15, 2026</span></div></div>
+          <a class="btn btn-dark" href="https://ukrainianschooldetroit.org/2026/10/21513/" rel="noopener"><span class="lang-uk">Переглянути</span><span class="lang-en">View</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
-<div class="vyshyvka" aria-hidden="true"></div>
 
-<section class="section">
+<section class="strip" aria-label="Швидкі посилання / Quick links">
   <div class="wrap">
-    <div class="quick-grid">
-      <a class="quick" href="homework.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg><span><strong><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></strong><span class="desc"><span class="lang-uk">Щотижневі завдання для кожного класу у форматі PDF</span><span class="lang-en">Weekly assignments for every class, as PDFs</span></span></span></a>
-      <a class="quick" href="calendar.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span><strong><span class="lang-uk">Шкільний календар</span><span class="lang-en">School calendar</span></strong><span class="desc"><span class="lang-uk">Навчальні дні, свята та вихідні на 2026–27 рік</span><span class="lang-en">School days, holidays and breaks for 2026–27</span></span></span></a>
-      <a class="quick" href="parents.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><span><strong><span class="lang-uk">Для батьків</span><span class="lang-en">For parents</span></strong><span class="desc"><span class="lang-uk">Форми, список підручників і шкільного приладдя</span><span class="lang-en">Forms, textbook list and school supplies</span></span></span></a>
-      <a class="quick" href="registration.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg><span><strong><span class="lang-uk">Реєстрація та оплата</span><span class="lang-en">Registration and payments</span></strong><span class="desc"><span class="lang-uk">Онлайн-форма реєстрації та інформація про оплату</span><span class="lang-en">Online registration form and tuition information</span></span></span></a>
-      <a class="quick" href="handbook.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg><span><strong><span class="lang-uk">Шкільний правильник</span><span class="lang-en">Student handbook</span></strong><span class="desc"><span class="lang-uk">Правила учнів, затверджені 31 серпня 2026 року</span><span class="lang-en">Student rules, approved August 31, 2026</span></span></span></a>
-      <a class="quick" href="exams.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M8.2 13.9 7 22l5-3 5 3-1.2-8.1"/></svg><span><strong><span class="lang-uk">Матура</span><span class="lang-en">Final exams</span></strong><span class="desc"><span class="lang-uk">Письмові матуральні іспити 2007–2025 для підготовки</span><span class="lang-en">Written matura exams 2007–2025 for practice</span></span></span></a>
+    <div class="strip-grid">
+      <a class="quick" href="registration.html"><span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span><strong><span class="lang-uk">Реєстрація</span><span class="lang-en">Registration</span></strong><span class="desc"><span class="lang-uk">Зареєструйте дитину на 2026–27</span><span class="lang-en">Enroll your child for 2026–27</span></span></span></a>
+      <a class="quick" href="homework.html"><span class="tile tile-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span><span><strong><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></strong><span class="desc"><span class="lang-uk">PDF для кожного класу, щотижня</span><span class="lang-en">A PDF for every class, weekly</span></span></span></a>
+      <a class="quick" href="calendar.html"><span class="tile tile-emerald"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span><span><strong><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></strong><span class="desc"><span class="lang-uk">Навчальні дні, свята, вихідні</span><span class="lang-en">School days, holidays, breaks</span></span></span></a>
+      <a class="quick" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="tile tile-rose"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg></span><span><strong><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></strong><span class="desc"><span class="lang-uk">Підтримайте школу та її учнів</span><span class="lang-en">Support the school and its students</span></span></span></a>
     </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="wrap split">
+    <div class="sticky">
+      <span class="eyebrow"><span class="lang-uk">Про школу</span><span class="lang-en">About the school</span></span>
+      <h2 style="margin-top:.75rem"><span class="lang-uk">Школа, де діти <em style='font-style:normal;color:var(--accent)'>ростуть</em> українцями</span><span class="lang-en">A school where children <em style='font-style:normal;color:var(--accent)'>grow up</em> Ukrainian</span></h2>
+      <p class="lead lang-uk">Рідна Школа обігріває своєю любов’ю не одне покоління українців на американській землі. Тут батьки довіряють учителям найдорожче: своїх дітей, яких навчають рідної мови, культури та історії.</p>
+      <p class="lead lang-en">For generations, Ridna Shkola has been where Ukrainian American families bring their children to learn their language, culture and history from teachers who treat them as their own.</p>
+      <blockquote class="quote">
+        <span class="lang-uk">«Навчити її бути українцями на чужині».</span>
+        <span class="lang-en">"To teach them to be Ukrainian abroad."</span>
+        <cite><span class="lang-uk">М. Дольницький та І. Білоус, засновники школи</span><span class="lang-en">M. Dolnytsky and I. Bilous, founders of the school</span></cite>
+      </blockquote>
+      <a class="link-arrow" href="about.html"><span class="lang-uk">Читати про школу</span><span class="lang-en">Read about the school</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="values">
+      <div class="card value"><span class="tile tile-solid tile-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></span><h3><span class="lang-uk">Мова</span><span class="lang-en">Language</span></h3><p><span class="lang-uk">Читання, письмо та розмова українською від дошкілля до 11 класу.</span><span class="lang-en">Reading, writing and speaking Ukrainian from preschool to grade 11.</span></p></div>
+      <div class="card value"><span class="tile tile-solid tile-gold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><h3><span class="lang-uk">Історія й географія</span><span class="lang-en">History and geography</span></h3><p><span class="lang-uk">Лекції з історії та географії України, що завершуються матурою.</span><span class="lang-en">Lectures on Ukrainian history and geography, leading up to the matura.</span></p></div>
+      <div class="card value"><span class="tile tile-solid tile-emerald"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M8.2 13.9 7 22l5-3 5 3-1.2-8.1"/></svg></span><h3><span class="lang-uk">Культура й звичаї</span><span class="lang-en">Culture and customs</span></h3><p><span class="lang-uk">Народознавство, одяг, їжа та свята: від Святвечора до вишиванки.</span><span class="lang-en">Folk studies, clothing, food and holidays, from Sviat Vechir to the vyshyvanka.</span></p></div>
+      <div class="card value"><span class="tile tile-solid tile-rose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><h3><span class="lang-uk">Громада</span><span class="lang-en">Community</span></h3><p><span class="lang-uk">Свято Першого Дзвоника, Свято Букварика, зустрічі, концерти й живі лекції.</span><span class="lang-en">The First Bell celebration, Bukvaryk festival, guest talks, concerts and live lectures.</span></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="levels">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow"><span class="lang-uk">Класи</span><span class="lang-en">Grades</span></span>
+        <h2><span class="lang-uk">Дванадцять рівнів, одна подорож</span><span class="lang-en">Twelve levels, one journey</span></h2>
+      </div>
+      <p><span class="lang-uk">Від першого слова в дошкіллі до матури в 11 класі: щотижневі завдання та лекції для кожного класу.</span><span class="lang-en">From the first words in preschool to the matura in grade 11, with weekly assignments and lectures for every class.</span></p>
+    </div>
+    <div class="levels"><a class="level" style="--bar:var(--gold)" href="homework.html">
+          <div class="k"><span class="lang-uk">Дошкілля</span><span class="lang-en">Preschool</span></div>
+          <div class="big"><span class="lang-uk">Дошкілля</span><span class="lang-en">Preschool</span></div>
+          <p><span class="lang-uk">Групи «а» і «б»: знайомство з українською мовою через гру.</span><span class="lang-en">Groups A and B: first steps in Ukrainian through play.</span></p>
+          <span class="go"><span class="lang-uk">Завдання для класу</span><span class="lang-en">Class homework</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+        </a><a class="level" style="--bar:var(--blue)" href="homework.html">
+          <div class="k"><span class="lang-uk">Початкова школа</span><span class="lang-en">Early grades</span></div>
+          <div class="big"><span class="lang-uk">1–4 клас</span><span class="lang-en">Grades 1–4</span></div>
+          <p><span class="lang-uk">Читання, письмо й розмова. У більшості класів є паралельні групи «а» і «б».</span><span class="lang-en">Reading, writing and speaking. Most grades run parallel A and B groups.</span></p>
+          <span class="go"><span class="lang-uk">Завдання для класу</span><span class="lang-en">Class homework</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+        </a><a class="level" style="--bar:#059669" href="homework.html">
+          <div class="k"><span class="lang-uk">Середня школа</span><span class="lang-en">Middle grades</span></div>
+          <div class="big"><span class="lang-uk">5–8 клас</span><span class="lang-en">Grades 5–8</span></div>
+          <p><span class="lang-uk">Мова й література, історія та народознавство. Групи «а» і «б» у 6 і 7 класах.</span><span class="lang-en">Language and literature, history and folk studies. Grades 6 and 7 have A and B groups.</span></p>
+          <span class="go"><span class="lang-uk">Завдання для класу</span><span class="lang-en">Class homework</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+        </a><a class="level" style="--bar:#e11d48" href="homework.html">
+          <div class="k"><span class="lang-uk">Старша школа</span><span class="lang-en">Upper grades</span></div>
+          <div class="big"><span class="lang-uk">9–11 клас</span><span class="lang-en">Grades 9–11</span></div>
+          <p><span class="lang-uk">Мова, література, історія, культура й географія. У 11 класі учні складають матуру.</span><span class="lang-en">Language, literature, history, culture and geography. Grade 11 sits the matura exams.</span></p>
+          <span class="go"><span class="lang-uk">Завдання для класу</span><span class="lang-en">Class homework</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+        </a></div>
   </div>
 </section>
 
@@ -86,10 +157,10 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <p class="eyebrow"><span class="lang-uk">Новини</span><span class="lang-en">News</span></p>
+        <span class="eyebrow"><span class="lang-uk">Новини</span><span class="lang-en">News</span></span>
         <h2><span class="lang-uk">Оголошення та події</span><span class="lang-en">Announcements and events</span></h2>
       </div>
-      <a class="btn btn-outline" href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener"><span class="lang-uk">Більше на Facebook</span><span class="lang-en">More on Facebook</span></a>
+      <a class="btn btn-line" href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener"><span class="lang-uk">Більше на Facebook</span><span class="lang-en">More on Facebook</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
     </div>
     <div class="news-grid">
 <article class="news-card">
@@ -149,108 +220,115 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap split">
+<section class="section section-alt" id="day">
+  <div class="wrap split even">
     <div>
-      <p class="eyebrow"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></p>
-      <h2><span class="lang-uk">Понад 75 років на американській землі</span><span class="lang-en">More than 75 years in Michigan</span></h2>
-      <p class="lang-uk measure">Школа українознавства «Рідна Школа» м. Детройту обігріває своєю любов’ю не одне покоління українців. Тут батьки довіряють учителям найдорожче: своїх дітей, яких навчають рідної мови, культури, історії та національних надбань народу.</p>
-      <p class="lang-en measure">For generations, Ridna Shkola in Detroit has been where Ukrainian American families bring their children to learn their language, culture and history from teachers who treat them as their own.</p>
-      <blockquote class="quote">
-        <span class="lang-uk">«Метою школи українознавства є і буде забезпечення систематичного виховання молоді поза Україною, а також збереження її від процесу денаціоналізації та навчити її бути українцями на чужині».</span>
-        <span class="lang-en">"The purpose of the School of Ukrainian Studies is, and will remain, to give young people outside Ukraine a systematic upbringing, to guard them from losing their national identity, and to teach them to be Ukrainian abroad."</span>
-        <cite><span class="lang-uk">М. Дольницький та І. Білоус, засновники школи</span><span class="lang-en">M. Dolnytsky and I. Bilous, founders of the school</span></cite>
-      </blockquote>
-      <a class="btn btn-navy" href="about.html"><span class="lang-uk">Читати про школу</span><span class="lang-en">Read about the school</span></a>
+      <span class="eyebrow"><span class="lang-uk">Шкільний день</span><span class="lang-en">The school day</span></span>
+      <h2 style="margin-top:.75rem"><span class="lang-uk">Щосуботи, з 9:15 до 13:15</span><span class="lang-en">Every Saturday, 9:15 am to 1:15 pm</span></h2>
+      <p class="lead lang-uk">П’ять 45-хвилинних занять і велика перерва. Приміщення відкрите з 9:00; день розпочинається і закінчується молитвою.</p>
+      <p class="lead lang-en">Five 45-minute periods and a long break. Doors open at 9:00 am; the day begins and ends with a prayer.</p>
+      <div class="panel" style="padding:.5rem 1rem">
+        <table class="timetable">
+          <thead><tr><th><span class="lang-uk">Урок</span><span class="lang-en">Period</span></th><th><span class="lang-uk">Початок</span><span class="lang-en">Starts</span></th></tr></thead>
+          <tbody>
+            <tr><td class="n">I</td><td>9:15</td></tr>
+            <tr><td class="n">II</td><td>10:00</td></tr>
+            <tr><td class="n">III</td><td>10:45</td></tr>
+            <tr class="break"><td class="n">—</td><td><span class="lang-uk">Велика перерва 11:25 – 11:45</span><span class="lang-en">Long break 11:25 – 11:45</span></td></tr>
+            <tr><td class="n">IV</td><td>11:45</td></tr>
+            <tr><td class="n">V</td><td>12:30</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
     <div>
-      <h3><span class="lang-uk">Розклад суботи</span><span class="lang-en">Saturday timetable</span></h3>
-      <table class="timetable">
-        <thead><tr><th><span class="lang-uk">Урок</span><span class="lang-en">Period</span></th><th><span class="lang-uk">Початок</span><span class="lang-en">Starts</span></th></tr></thead>
-        <tbody>
-          <tr><td class="n">I</td><td>9:15</td></tr>
-          <tr><td class="n">II</td><td>10:00</td></tr>
-          <tr><td class="n">III</td><td>10:45</td></tr>
-          <tr><td class="n">—</td><td><span class="lang-uk">Велика перерва 11:25 – 11:45</span><span class="lang-en">Lunch break 11:25 – 11:45</span></td></tr>
-          <tr><td class="n">IV</td><td>11:45</td></tr>
-          <tr><td class="n">V</td><td>12:30</td></tr>
-        </tbody>
-      </table>
-      <p class="small muted" style="margin-top:0.75rem"><span class="lang-uk">П’ять 45-хвилинних занять. Приміщення відкрите з 9:00; день розпочинається і закінчується молитвою.</span><span class="lang-en">Five 45-minute periods. Doors open at 9:00; the day opens and closes with a prayer.</span></p>
+      <div class="embed">
+        <iframe src="https://calendar.google.com/calendar/embed?src=ukrainianschooldetroit%40gmail.com&ctz=America%2FNew_York&showTitle=0&showPrint=0&showCalendars=0&wkst=1&mode=AGENDA" title="Google Calendar: Рідна Школа" loading="lazy" style="min-height:520px"></iframe>
+        <div class="embed-note"><span class="lang-uk">Найближчі дати.</span><span class="lang-en">Upcoming dates.</span> <a href="calendar.html"><span class="lang-uk">Повний календар</span><span class="lang-en">Full calendar</span></a> · <a href="https://calendar.google.com/calendar/u/0/embed?src=ukrainianschooldetroit@gmail.com" rel="noopener"><span class="lang-uk">відкрити в Google Calendar</span><span class="lang-en">open in Google Calendar</span></a></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="matura">
   <div class="wrap">
     <div class="section-head">
       <div>
-        <p class="eyebrow"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></p>
-        <h2><span class="lang-uk">Найближчі дати</span><span class="lang-en">Upcoming dates</span></h2>
+        <span class="eyebrow"><span class="lang-uk">Матура</span><span class="lang-en">Final exams</span></span>
+        <h2><span class="lang-uk">Архів письмових іспитів</span><span class="lang-en">Archive of written exams</span></h2>
       </div>
-      <a class="btn btn-outline" href="calendar.html"><span class="lang-uk">Повний календар</span><span class="lang-en">Full calendar</span></a>
+      <p><span class="lang-uk">Мова, література, історія, географія й культура: іспити за кожен рік, щоб випускники могли підготуватися.</span><span class="lang-en">Language, literature, history, geography and culture: exams from every year, so graduating students can practise.</span></p>
     </div>
-    <div class="embed">
-      <iframe src="https://calendar.google.com/calendar/embed?src=ukrainianschooldetroit%40gmail.com&ctz=America%2FNew_York&showTitle=0&showPrint=0&showCalendars=0&wkst=1&mode=AGENDA" title="Google Calendar: Рідна Школа" loading="lazy"></iframe>
-      <div class="embed-note"><span class="lang-uk">Якщо календар не відображається,</span><span class="lang-en">If the calendar does not load,</span> <a href="https://calendar.google.com/calendar/u/0/embed?src=ukrainianschooldetroit@gmail.com" rel="noopener"><span class="lang-uk">відкрийте його в Google Calendar</span><span class="lang-en">open it in Google Calendar</span></a>.</div>
-    </div>
+    <div class="years"><a class="year-card" href="exams.html" style="--a:#0a3d7e;--b:#06224a;--x:30%;--y:20%"><span class="y"><b>2025</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#f5b800;--b:#b45309;--x:70%;--y:30%"><span class="y"><b>2024</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#047857;--b:#064e3b;--x:50%;--y:70%"><span class="y"><b>2023</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#be123c;--b:#881337;--x:40%;--y:30%"><span class="y"><b>2022</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#334155;--b:#0f172a;--x:60%;--y:60%"><span class="y"><b>2021</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#4338ca;--b:#312e81;--x:30%;--y:50%"><span class="y"><b>2020</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#0e7490;--b:#164e63;--x:50%;--y:30%"><span class="y"><b>2019</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#a21caf;--b:#701a75;--x:70%;--y:60%"><span class="y"><b>2018</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a><a class="year-card" href="exams.html" style="--a:#57534e;--b:#292524;--x:20%;--y:40%"><span class="y"><b>2017</b><span><span class="lang-uk">Матура · іспити</span><span class="lang-en">Matura · exams</span> →</span></span></a></div>
   </div>
 </section>
 
-<section class="band">
+<section class="section" style="padding-top:0" id="donate">
   <div class="wrap">
-    <div>
-      <p class="eyebrow"><span class="lang-uk">Підтримка</span><span class="lang-en">Support</span></p>
-      <h2><span class="lang-uk">Підтримайте Рідну Школу</span><span class="lang-en">Support Ridna Shkola</span></h2>
-      <p class="lang-uk measure">Оплата за навчання є другорядною вимогою: школа завжди готова допомогти родинам із матеріальними труднощами та дітям, чиї батьки воюють або загинули, захищаючи Україну. Ваша пожертва робить це можливим.</p>
-      <p class="lang-en measure">Tuition is never a barrier: the school helps families in financial need and the children of parents serving or fallen in defense of Ukraine. Your donation makes that possible.</p>
+    <div class="donate">
+      <div class="donate-inner">
+        <div>
+          <span class="eyebrow on-dark"><span class="lang-uk">Підтримка</span><span class="lang-en">Support</span></span>
+          <h2><span class="lang-uk">Підтримайте Рідну Школу</span><span class="lang-en">Support Ridna Shkola</span></h2>
+          <p class="lang-uk">Оплата за навчання є другорядною вимогою: школа допомагає родинам із матеріальними труднощами та дітям, чиї батьки воюють або загинули, захищаючи Україну. Ваша пожертва робить це можливим.</p>
+          <p class="lang-en">Tuition is never a barrier: the school helps families in financial need and the children of parents serving or fallen in defense of Ukraine. Your donation makes that possible.</p>
+        </div>
+        <div class="donate-actions">
+          <a class="btn btn-gold" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span><span class="lang-uk">Пожертвувати через PayPal</span><span class="lang-en">Donate with PayPal</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+          <a class="btn btn-glass" href="registration.html#help"><span><span class="lang-uk">Допомога з оплатою</span><span class="lang-en">Help with tuition</span></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
     </div>
-    <a class="btn btn-gold" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="lang-uk">Пожертвувати через PayPal</span><span class="lang-en">Donate with PayPal</span></a>
   </div>
 </section>
 
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <h3><span class="lang-uk">Школа</span><span class="lang-en">School</span></h3>
-        <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
-        <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
-        <p><a href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener">Facebook</a> · <a href="mailto:ukrainianschooldetroit@gmail.com">ukrainianschooldetroit@gmail.com</a></p>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Сторінки</span><span class="lang-en">Pages</span></h3>
-        <ul>
-          <li><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About the school</span></a></li>
-          <li><a href="parents.html"><span class="lang-uk">Для батьків</span><span class="lang-en">For parents</span></a></li>
-          <li><a href="registration.html"><span class="lang-uk">Реєстрація та оплата</span><span class="lang-en">Registration and payments</span></a></li>
-          <li><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a></li>
-          <li><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a></li>
-          <li><a href="handbook.html"><span class="lang-uk">Шкільний правильник</span><span class="lang-en">Student handbook</span></a></li>
-        </ul>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Навчання</span><span class="lang-en">Learning</span></h3>
-        <ul>
-          <li><a href="lessons.html"><span class="lang-uk">Лекції: культура, історія, література</span><span class="lang-en">Lessons: culture, history, literature</span></a></li>
-          <li><a href="exams.html"><span class="lang-uk">Матура / письмові іспити</span><span class="lang-en">Final exams (Matura)</span></a></li>
-          <li><a href="downloads.html"><span class="lang-uk">Корисні ресурси</span><span class="lang-en">Useful resources</span></a></li>
-          <li><a href="https://www.shkilnarada.org/" rel="noopener"><span class="lang-uk">Шкільна Рада УККА</span><span class="lang-en">Ukrainian Education Council (UCCA)</span></a></li>
-          <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Internet Encyclopedia of Ukraine</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Підтримати</span><span class="lang-en">Support</span></h3>
-        <p class="lang-uk">Рідна Школа існує завдяки батькам, учителям-волонтерам і жертводавцям громади.</p>
-        <p class="lang-en">Ridna Shkola runs thanks to parents, volunteer teachers and donors from the community.</p>
-        <a class="btn btn-navy" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></a>
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">РШ</span>
+        <span class="brand-text"><strong><span class="lang-uk">Рідна Школа</span><span class="lang-en">Ridna Shkola</span></strong><span><span class="lang-uk">Школа українознавства · Детройт</span><span class="lang-en">Ukrainian school · Detroit</span></span></span>
+      </a>
+      <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
+      <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.5-2 2-2h2V2c-.5-.1-1.8-.2-3-.2-3 0-5 1.7-5 5v3.2H6v4h3V22h4Z"/></svg></a>
+        <a href="mailto:ukrainianschooldetroit@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg></a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 <span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа», Детройт</span><span class="lang-en">School of Ukrainian Language and Culture, Detroit</span></span>
-      <span><a href="https://ukrainianschooldetroit.org/" rel="noopener"><span class="lang-uk">Архів новин (попередній сайт)</span><span class="lang-en">News archive (previous site)</span></a></span>
+    <div>
+      <h3><span class="lang-uk">Меню</span><span class="lang-en">Menu</span></h3>
+      <ul>
+        <li><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About the school</span></a></li>
+        <li><a href="parents.html"><span class="lang-uk">Для батьків</span><span class="lang-en">For parents</span></a></li>
+        <li><a href="registration.html"><span class="lang-uk">Реєстрація та оплата</span><span class="lang-en">Registration and payments</span></a></li>
+        <li><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a></li>
+        <li><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a></li>
+        <li><a href="handbook.html"><span class="lang-uk">Шкільний правильник</span><span class="lang-en">Student handbook</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h3><span class="lang-uk">Навчання</span><span class="lang-en">Learning</span></h3>
+      <ul>
+        <li><a href="lessons.html"><span class="lang-uk">Лекції та матеріали</span><span class="lang-en">Lessons and materials</span></a></li>
+        <li><a href="exams.html"><span class="lang-uk">Матура / іспити</span><span class="lang-en">Final exams (Matura)</span></a></li>
+        <li><a href="downloads.html"><span class="lang-uk">Корисні ресурси</span><span class="lang-en">Useful resources</span></a></li>
+        <li><a href="https://www.shkilnarada.org/" rel="noopener"><span class="lang-uk">Шкільна Рада УККА</span><span class="lang-en">Education Council (UCCA)</span></a></li>
+        <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Encyclopedia of Ukraine</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></h3>
+      <p style="margin-top:0"><span class="lang-uk">Воррен, Мічиган</span><span class="lang-en">Warren, Michigan</span><br><span class="lang-uk">Щосуботи, 9:15 – 13:15</span><span class="lang-en">Saturdays, 9:15 am – 1:15 pm</span><br><a href="mailto:ukrainianschooldetroit@gmail.com">ukrainianschooldetroit@gmail.com</a></p>
+      <a class="btn btn-gold" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>© 2026 <span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа», Детройт</span><span class="lang-en">School of Ukrainian Language and Culture, Detroit</span> · <a href="https://ukrainianschooldetroit.org/" rel="noopener"><span class="lang-uk">Архів новин</span><span class="lang-en">News archive</span></a></span>
+      <span class="glory"><span class="flag" aria-hidden="true"></span>Слава Україні · Glory to Ukraine</span>
     </div>
   </div>
 </footer>

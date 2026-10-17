@@ -35,6 +35,14 @@
     });
   }
 
+  /* ---------- Header shadow on scroll ---------- */
+  var header = document.getElementById('site-header');
+  if (header) {
+    var onScroll = function () { header.classList.toggle('scrolled', window.scrollY > 8); };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
   /* ---------- Current page highlight ---------- */
   var here = location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.site-nav a').forEach(function (a) {

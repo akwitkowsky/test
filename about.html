@@ -10,34 +10,42 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="uk_UA">
 <meta property="og:locale:alternate" content="en_US">
-<meta name="theme-color" content="#0f2a5c">
+<meta name="theme-color" content="#0a3d7e">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Literata:wght@500;600;700&display=swap">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <a class="skip-link" href="#main"><span class="lang-uk">Перейти до змісту</span><span class="lang-en">Skip to content</span></a>
-<header class="site-header">
+
+<div class="promo">
+  <div class="wrap">
+    <p><span class="flag" aria-hidden="true"></span><span class="t"><b><span class="lang-uk">Новина</span><span class="lang-en">News</span></b> · «Пустіть дітей приходити до Мене, не бороніть їм · <span class="lang-uk">15 жовтня 2026</span><span class="lang-en">October 15, 2026</span></span></p>
+    <a href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="lang-uk">Підтримати школу</span><span class="lang-en">Support the school</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+  </div>
+</div>
+<header class="site-header" id="site-header">
   <div class="wrap header-inner">
     <a class="brand" href="index.html" aria-label="Рідна Школа — головна">
       <span class="brand-mark" aria-hidden="true">РШ</span>
       <span class="brand-text">
-        <strong><span class="lang-uk">Рідна Школа · Детройт</span><span class="lang-en">Ridna Shkola · Detroit</span></strong>
-        <span><span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа»</span><span class="lang-en">School of Ukrainian Language and Culture</span></span>
+        <strong><span class="lang-uk">Рідна Школа</span><span class="lang-en">Ridna Shkola</span></strong>
+        <span><span class="lang-uk">Школа українознавства · Детройт</span><span class="lang-en">Ukrainian school · Detroit</span></span>
       </span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="lang-uk">Меню</span><span class="lang-en">Menu</span></button>
-    <nav class="site-nav" id="site-nav" aria-label="Головна навігація">
-      <a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></a><a href="parents.html"><span class="lang-uk">Батькам</span><span class="lang-en">Parents</span></a><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a><a href="lessons.html"><span class="lang-uk">Матеріали</span><span class="lang-en">Resources</span></a><a href="contact.html"><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></a>
-      <a class="cta" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a>
+    <nav class="site-nav" id="site-nav" aria-label="Головна навігація"><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></a><a href="parents.html"><span class="lang-uk">Батькам</span><span class="lang-en">Parents</span></a><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a><a href="lessons.html"><span class="lang-uk">Матеріали</span><span class="lang-en">Resources</span></a><a href="contact.html"><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></a><a class="nav-reg" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a></nav>
+    <div class="header-actions">
       <div class="lang-switch" role="group" aria-label="Мова / Language">
         <button type="button" data-lang="uk" aria-pressed="true">UA</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
-    </nav>
+      <a class="btn btn-line" href="registration.html"><span class="lang-uk">Реєстрація</span><span class="lang-en">Register</span></a>
+      <a class="btn btn-blue" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg><span><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Меню / Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
   </div>
 </header>
 
@@ -45,14 +53,14 @@
 
 <section class="page-head">
   <div class="wrap">
-    <p class="eyebrow"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></p>
+    <span class="eyebrow on-dark"><span class="lang-uk">Про школу</span><span class="lang-en">About</span></span>
     <h1><span class="lang-uk">Вітаємо в Рідній Школі</span><span class="lang-en">Welcome to Ridna Shkola</span></h1>
     <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті відзначила своє 75-ліття у 2026 році.</p><p class="lang-en">The School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit celebrated its 75th anniversary in 2026.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap split">
+  <div class="wrap split wide-left">
     <div class="measure">
       <div class="lang-uk">
         <p>Вже понад 75 років школа українознавства «Рідна Школа» м. Детройту обігріває своєю любов’ю не одне покоління українців на американській землі. Саме тут батьки довіряють нашим вчителям найдорожче: своїх дітей, їхнє майбутнє, у надійні руки досвідчених педагогів, котрі вміло навчають їх рідної мови, культури, історії та національних надбань народу.</p>
@@ -92,45 +100,50 @@
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <h3><span class="lang-uk">Школа</span><span class="lang-en">School</span></h3>
-        <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
-        <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
-        <p><a href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener">Facebook</a> · <a href="mailto:ukrainianschooldetroit@gmail.com">ukrainianschooldetroit@gmail.com</a></p>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Сторінки</span><span class="lang-en">Pages</span></h3>
-        <ul>
-          <li><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About the school</span></a></li>
-          <li><a href="parents.html"><span class="lang-uk">Для батьків</span><span class="lang-en">For parents</span></a></li>
-          <li><a href="registration.html"><span class="lang-uk">Реєстрація та оплата</span><span class="lang-en">Registration and payments</span></a></li>
-          <li><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a></li>
-          <li><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a></li>
-          <li><a href="handbook.html"><span class="lang-uk">Шкільний правильник</span><span class="lang-en">Student handbook</span></a></li>
-        </ul>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Навчання</span><span class="lang-en">Learning</span></h3>
-        <ul>
-          <li><a href="lessons.html"><span class="lang-uk">Лекції: культура, історія, література</span><span class="lang-en">Lessons: culture, history, literature</span></a></li>
-          <li><a href="exams.html"><span class="lang-uk">Матура / письмові іспити</span><span class="lang-en">Final exams (Matura)</span></a></li>
-          <li><a href="downloads.html"><span class="lang-uk">Корисні ресурси</span><span class="lang-en">Useful resources</span></a></li>
-          <li><a href="https://www.shkilnarada.org/" rel="noopener"><span class="lang-uk">Шкільна Рада УККА</span><span class="lang-en">Ukrainian Education Council (UCCA)</span></a></li>
-          <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Internet Encyclopedia of Ukraine</a></li>
-        </ul>
-      </div>
-      <div>
-        <h3><span class="lang-uk">Підтримати</span><span class="lang-en">Support</span></h3>
-        <p class="lang-uk">Рідна Школа існує завдяки батькам, учителям-волонтерам і жертводавцям громади.</p>
-        <p class="lang-en">Ridna Shkola runs thanks to parents, volunteer teachers and donors from the community.</p>
-        <a class="btn btn-navy" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></a>
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">РШ</span>
+        <span class="brand-text"><strong><span class="lang-uk">Рідна Школа</span><span class="lang-en">Ridna Shkola</span></strong><span><span class="lang-uk">Школа українознавства · Детройт</span><span class="lang-en">Ukrainian school · Detroit</span></span></span>
+      </a>
+      <p class="lang-uk">Школа Українознавства Товариства «Рідна Школа» в Детройті. Суботня школа української мови, літератури, історії, географії та культури для дітей від дошкілля до 11 класу.</p>
+      <p class="lang-en">School of Ukrainian Language and Culture of the Ridna Shkola Society in Detroit. A Saturday school of Ukrainian language, literature, history, geography and culture, preschool through grade 11.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/ukrainianschooldetroit/" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.1.5-2 2-2h2V2c-.5-.1-1.8-.2-3-.2-3 0-5 1.7-5 5v3.2H6v4h3V22h4Z"/></svg></a>
+        <a href="mailto:ukrainianschooldetroit@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="m22 6-10 7L2 6"/></svg></a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 <span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа», Детройт</span><span class="lang-en">School of Ukrainian Language and Culture, Detroit</span></span>
-      <span><a href="https://ukrainianschooldetroit.org/" rel="noopener"><span class="lang-uk">Архів новин (попередній сайт)</span><span class="lang-en">News archive (previous site)</span></a></span>
+    <div>
+      <h3><span class="lang-uk">Меню</span><span class="lang-en">Menu</span></h3>
+      <ul>
+        <li><a href="about.html"><span class="lang-uk">Про школу</span><span class="lang-en">About the school</span></a></li>
+        <li><a href="parents.html"><span class="lang-uk">Для батьків</span><span class="lang-en">For parents</span></a></li>
+        <li><a href="registration.html"><span class="lang-uk">Реєстрація та оплата</span><span class="lang-en">Registration and payments</span></a></li>
+        <li><a href="homework.html"><span class="lang-uk">Домашні завдання</span><span class="lang-en">Homework</span></a></li>
+        <li><a href="calendar.html"><span class="lang-uk">Календар</span><span class="lang-en">Calendar</span></a></li>
+        <li><a href="handbook.html"><span class="lang-uk">Шкільний правильник</span><span class="lang-en">Student handbook</span></a></li>
+      </ul>
+    </div>
+    <div>
+      <h3><span class="lang-uk">Навчання</span><span class="lang-en">Learning</span></h3>
+      <ul>
+        <li><a href="lessons.html"><span class="lang-uk">Лекції та матеріали</span><span class="lang-en">Lessons and materials</span></a></li>
+        <li><a href="exams.html"><span class="lang-uk">Матура / іспити</span><span class="lang-en">Final exams (Matura)</span></a></li>
+        <li><a href="downloads.html"><span class="lang-uk">Корисні ресурси</span><span class="lang-en">Useful resources</span></a></li>
+        <li><a href="https://www.shkilnarada.org/" rel="noopener"><span class="lang-uk">Шкільна Рада УККА</span><span class="lang-en">Education Council (UCCA)</span></a></li>
+        <li><a href="http://www.encyclopediaofukraine.com/default.asp" rel="noopener">Encyclopedia of Ukraine</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3><span class="lang-uk">Контакт</span><span class="lang-en">Contact</span></h3>
+      <p style="margin-top:0"><span class="lang-uk">Воррен, Мічиган</span><span class="lang-en">Warren, Michigan</span><br><span class="lang-uk">Щосуботи, 9:15 – 13:15</span><span class="lang-en">Saturdays, 9:15 am – 1:15 pm</span><br><a href="mailto:ukrainianschooldetroit@gmail.com">ukrainianschooldetroit@gmail.com</a></p>
+      <a class="btn btn-gold" href="https://www.paypal.com/donate?hosted_button_id=YQTA6DRX49RN6" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-7-4.534-7-10a4 4 0 0 1 7-2.646A4 4 0 0 1 19 11c0 5.466-7 10-7 10Z"/></svg><span class="lang-uk">Пожертва</span><span class="lang-en">Donate</span></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>© 2026 <span class="lang-uk">Школа Українознавства Т-ва «Рідна Школа», Детройт</span><span class="lang-en">School of Ukrainian Language and Culture, Detroit</span> · <a href="https://ukrainianschooldetroit.org/" rel="noopener"><span class="lang-uk">Архів новин</span><span class="lang-en">News archive</span></a></span>
+      <span class="glory"><span class="flag" aria-hidden="true"></span>Слава Україні · Glory to Ukraine</span>
     </div>
   </div>
 </footer>
