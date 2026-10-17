@@ -1,0 +1,1048 @@
+{
+ "trimester": 1,
+ "year": "2026-27",
+ "weeks": [
+  {
+   "date": "10-10-2026",
+   "iso": "2026-10-10",
+   "rows": [
+    {
+     "cls": "Дошкілля",
+     "links": [
+      {
+       "t": "Дошкілля – а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Дошкілля-а-1.pdf"
+      },
+      {
+       "t": "Дошкілля – б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Дошкілля-б-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "1 кл",
+     "links": [
+      {
+       "t": "1а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/1а-2.pdf"
+      },
+      {
+       "t": "1б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/1б-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "2 кл",
+     "links": [
+      {
+       "t": "2а і 2б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/2а-і-2б-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "3 кл",
+     "links": [
+      {
+       "t": "3а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/3а-1.pdf"
+      },
+      {
+       "t": "3б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/3б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "4 кл",
+     "links": [
+      {
+       "t": "4а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/4а-3.pdf"
+      },
+      {
+       "t": "4б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/4б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "5 кл",
+     "links": [
+      {
+       "t": "5б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/5б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6а кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-і-л-ра-4.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.png.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія.docx-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6б кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-і-л-ра-3.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.png.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія.docx-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7а кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-10.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-6.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-7.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7б кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-10.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-6.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "8 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-6.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-5.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-6.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "9 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-7.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-5.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-8.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "10 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-8.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-4.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-9.pdf"
+      },
+      {
+       "t": "10 кл. Культура 10-10-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Культура-10-10-2026.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "11 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-9.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-7.pdf"
+      },
+      {
+       "t": "11 кл. Історія 10-10-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/11-кл.-Історія-10-10-2026.pdf"
+      },
+      {
+       "t": "11 кл. Культура 10-10-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/11-кл.-Культура-10-10-2026.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "10-03-2026",
+   "iso": "2026-10-03",
+   "rows": [
+    {
+     "cls": "Дошкілля",
+     "links": [
+      {
+       "t": "Дошкілля – а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Дошкілля-а.pdf"
+      },
+      {
+       "t": "Дошкілля – б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Дошкілля-б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "1 кл",
+     "links": [
+      {
+       "t": "1а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/1а.pdf"
+      },
+      {
+       "t": "1б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/1б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "2 кл",
+     "links": [
+      {
+       "t": "2а і 2б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/2а-і-2б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "3 кл",
+     "links": [
+      {
+       "t": "3а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/3а.pdf"
+      },
+      {
+       "t": "3б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/3б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "4 кл",
+     "links": [
+      {
+       "t": "4а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/4а.pdf"
+      },
+      {
+       "t": "4б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/4б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "5 кл",
+     "links": [
+      {
+       "t": "5б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/5б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6а кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-і-л-ра-1.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія.docx.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.png-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6б кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-і-л-ра-2.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія.docx.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.png-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7а кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-4.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7б кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-4.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Народознавство.pdf"
+      },
+      {
+       "t": "07 кл. Історія 10-03-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/07-кл.-Історія-10-03-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "8 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "9 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-5.pdf"
+      },
+      {
+       "t": "9 кл. Культура 10-03-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/9-кл.-Культура-10-03-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "10 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-1.pdf"
+      },
+      {
+       "t": "10 кл. Культура 10-03-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Культура-10-03-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "11 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-мова-2.pdf"
+      },
+      {
+       "t": "11 кл. Культура 10-03-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/11-кл.-Культура-10-03-2026.pdf"
+      },
+      {
+       "t": "11 кл. Історія 10-03-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/11-кл.-Історія-10-03-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Укр.-л-ра-4.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "09-26-2026",
+   "iso": "2026-09-26",
+   "rows": [
+    {
+     "cls": "Дошкілля",
+     "links": [
+      {
+       "t": "Дошкілля – б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Дошкілля-б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "1 кл",
+     "links": [
+      {
+       "t": "1а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/1а-2.pdf"
+      },
+      {
+       "t": "1б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/1б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "2 кл",
+     "links": [
+      {
+       "t": "2а і 2б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/2а-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "3 кл",
+     "links": [
+      {
+       "t": "3а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/3а-1.pdf"
+      },
+      {
+       "t": "3б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/3б-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "4 кл",
+     "links": [
+      {
+       "t": "4а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/4а-1.pdf"
+      },
+      {
+       "t": "4б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/4б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "5 кл",
+     "links": [
+      {
+       "t": "5а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/5а.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6а кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра-4.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.png-1.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6б кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра-5.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.png-2.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7а кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-8.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-11.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство-1.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-6.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7б кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-8.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-11.pdf"
+      },
+      {
+       "t": "07 кл. Історія 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/07-кл.-Історія-09-19-2026-1.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "8 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-9.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-12.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "9 кл",
+     "links": [
+      {
+       "t": "Мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Мова-4.pdf"
+      },
+      {
+       "t": "9 кл. Культура 09-26-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/9-кл.-Культура-09-26-2026.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-4.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-14.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "10 кл",
+     "links": [
+      {
+       "t": "Мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Мова-5.pdf"
+      },
+      {
+       "t": "10 кл. Культура 09-26-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/10-кл.-Культура-09-26-2026.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-5.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-13.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "11 кл",
+     "links": [
+      {
+       "t": "Мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Мова-6.pdf"
+      },
+      {
+       "t": "11 кл. Культура 09-26-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Культура-09-26-2026.pdf"
+      },
+      {
+       "t": "11 кл. Історія 09-26-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Історія-09-26-2026.pdf"
+      },
+      {
+       "t": "Географія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Географія.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-15.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "09-19-2026",
+   "iso": "2026-09-19",
+   "rows": [
+    {
+     "cls": "1 кл",
+     "links": [
+      {
+       "t": "1а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/1а-1.pdf"
+      },
+      {
+       "t": "1б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/1б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "3 кл",
+     "links": [
+      {
+       "t": "3а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/3а.pdf"
+      },
+      {
+       "t": "3б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/3б-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "4 кл",
+     "links": [
+      {
+       "t": "4а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/4а.pdf"
+      },
+      {
+       "t": "4б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/4б.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6а кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра-2.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.png.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6б кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра-3.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.png.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7а кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-3.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-6.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7б кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-4.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-6.pdf"
+      },
+      {
+       "t": "Народознавство",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Народознавство.pdf"
+      },
+      {
+       "t": "07 кл. Історія 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/07-кл.-Історія-09-19-2026-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "8 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-7.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-7.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "9 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Мова-2.pdf"
+      },
+      {
+       "t": "9 кл. Культура 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/9-кл.-Культура-09-19-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-9.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "10 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Мова-3.pdf"
+      },
+      {
+       "t": "10 кл. Культура 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/10-кл.-Культура-09-19-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-8.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "11 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-6.pdf"
+      },
+      {
+       "t": "11 кл. Культура 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Культура-09-19-2026.pdf"
+      },
+      {
+       "t": "11 кл. Історія 09-19-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Історія-09-19-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-10.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "09-12-2026",
+   "iso": "2026-09-12",
+   "rows": [
+    {
+     "cls": "1 кл",
+     "links": [
+      {
+       "t": "1а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/1а.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "3 кл",
+     "links": [
+      {
+       "t": "3б",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/3б-1.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "4 кл",
+     "links": [
+      {
+       "t": "4а",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/4а.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6а кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "6б кл",
+     "links": [
+      {
+       "t": "Укр. мова і л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-і-л-ра-1.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.docx.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7а кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-1.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра.pdf"
+      },
+      {
+       "t": "Історія",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Історія.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "7б кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-1.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-1.pdf"
+      },
+      {
+       "t": "Перший день науки 7 кл. Історія 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Перший-день-науки-7-кл.-Історія-09-12-2026.pdf"
+      },
+      {
+       "t": "07 кл. Історія 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/07-кл.-Історія-09-12-2026.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "8 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-2.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "9 кл",
+     "links": [
+      {
+       "t": "Перший день науки 9 кл. Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Перший-день-науки-9-кл.-Культура-09-12-2026.pdf"
+      },
+      {
+       "t": "9 кл. Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/9-кл.-Культура-09-12-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-3.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "10 кл",
+     "links": [
+      {
+       "t": "Перший день науки 10 кл. Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Перший-день-науки-10-кл.-Культура-та-Культура-09-12-2026.pdf"
+      },
+      {
+       "t": "10 кл. Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/10-кл.-Культура-09-12-2026-1.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-4.pdf"
+      }
+     ]
+    },
+    {
+     "cls": "11 кл",
+     "links": [
+      {
+       "t": "Укр. мова",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-мова-2.pdf"
+      },
+      {
+       "t": "Перший день науки 11 кл. Історія та Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Перший-день-науки-11-кл.-Історія-та-Культура-09-12-2026.pdf"
+      },
+      {
+       "t": "11 кл.   Історія 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Історія-09-12-2026.pdf"
+      },
+      {
+       "t": "11 кл. Культура 09-12-2026",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/11-кл.-Культура-09-12-2026.pdf"
+      },
+      {
+       "t": "Укр. л-ра",
+       "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/09/Укр.-л-ра-5.pdf"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

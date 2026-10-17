@@ -1,0 +1,832 @@
+{
+ "culture": [
+  {
+   "group": "Культура 8",
+   "t": "https://www.dropbox.com/sh/0bujc2vksqqsp7e/AACJj03YHC5Cn3kVMV0WDNgSa?dl=0",
+   "u": "https://www.dropbox.com/sh/0bujc2vksqqsp7e/AACJj03YHC5Cn3kVMV0WDNgSa?dl=0"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #5. Конструкція і внутрішний вигляд української хати",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-5.-Конструкція-і-внутрішний-вигляд-української-хати.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #6. Українська традиційна їжа",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-6.-Українська-традиційна-їжа-1.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #7 а. Українська традиційний одяг",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-7-а.-Українська-традиційний-одяг.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #7 б. Українська традиційний одяг",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-7-б.-Українська-традиційний-одяг.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #10 а. Звичаї пов’язані з родинним життям – родильні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-10-а.-Звичаї-повязані-з-родинним-життям-родильні.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #10 б. Звичаї пов’язані з родинним життям – весільні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-лекція-10-б.-Звичаї-повязані-з-родинним-життям-весільні.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-10-в.-Звичаї-повязані-з-родинним-життям-похоронні.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "Лекція #",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-6.-Українська-традиційна-їжа.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "10 в. Звичаї пов’язані з родинним життям – похоронні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-10-в.-Звичаї-повязані-з-родинним-життям-похоронні.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #11 а. Звичаї зимового циклю – Андріївськй вечір",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-11-а.-Звичаї-зимового-циклю-Андріївськй-вечір.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #11 б. Звичаї зимового циклю – Свят Вечір",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-11-б.-Звичаї-зимового-циклю-Свят-Вечір-2.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #11 в. Звичаї зимового циклю – Різдво, Новий Рік і Йордан",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-11-в.-Звичаї-зимового-циклю-Різдво-Новий-Рік-і-Йордан.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #12. Звичаї весняного циклу",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/8-кл.-Лекція-12.-Звичаї-весняного-циклу.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #13а. Звичаї літнього",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/8-кл.-Лекція-13а.-Звичаї-літнього.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #13б. Звичаї осінного циклу",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/8-кл.-Лекція-13б.-Звичаї-осінного-циклу.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #14. Традиції товарисько-громадського життя",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-14.-Традиції-товарисько-громадського-житя.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #15. Символіка орнаментів українського народного мистецтва",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-15.-Символіка-орнаментів-українського-народного-мистецтва.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #16. Писанка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-16.-Писанка.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #17. Кераміка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-17.-Кераміка.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #18. Вишивка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-18.-Вишивка.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція 18. Різьба по дереву",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/8-кл.-Лекція-18.-Різьба-по-дереву.pdf"
+  },
+  {
+   "group": "Культура 8",
+   "t": "8 кл. Лекція #20. Інші роди народнього мистецтва",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/8-кл.-Лекція-20.-Інші-роди-народнього-мистецтва.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "https://www.dropbox.com/sh/1m15g2ltfayg16b/AADqCZ3HXyt2OykabkgW-UZQa?dl=0",
+   "u": "https://www.dropbox.com/sh/1m15g2ltfayg16b/AADqCZ3HXyt2OykabkgW-UZQa?dl=0"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #1. Поняття культури",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/9-кл.-Лекція-1.-Поняття-культури-1.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-3.-Архітектура-вступ.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "Лекція",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-1.-Поняття-культури.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "#3. Архітектура – вступ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-3.-Архітектура-вступ.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-4а.-Архітектура-княжої-доби.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "Лекція",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-1.-Поняття-культури.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "#4 а. Архітектура княжої доби",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-4а.-Архітектура-княжої-доби.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-4б.-Архітектура-княжої-доби-візантійський-стиль.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "Лекція",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-1.-Поняття-культури.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "#4 б. Архітектура княжої доби – візантійський стиль",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-4б.-Архітектура-княжої-доби-візантійський-стиль.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл Лекція #5. Найславнійші будівлі княжої доби",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл7.-Найславнійші-будівлі-княжої-доби.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #6. Архітектура XIV-XVI ст. в Україні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-6.-Архітектура-XIV-XVI-ст.-в-Україні-1.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл Лекція #7. Романськи та ґотичний стилі архітектури в Україні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл-Лекція-7.-Ромаськи-та-ґотичний-стилі-архітектури-в-Україні.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #8. Вплив ренесансу на українську архітектуру",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-8.-Вплив-ренесансу-на-українську-архітектуру.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #9. Барокко в Україні 17-18 століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-9.-Барокко-в-Україні-17-18-століття.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #10 Будівлі в стилі українського барокко в Україні 17-18 століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-10-Будівлі-в-стилі-українського-барокко-в-Україні-17-18-століття-1.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #11а. Архітектура друої половини 17-18 ст. Рококо",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-11а.-Архітектура-друої-половини-17-18-ст.-Рококо.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #11б. Архітектура друої половини 17-18 ст. Класицизм",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-11б.-Архітектура-друої-половини-17-18-ст.-Класицизм.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #11в. Архітектура 19 ст. Ампір",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-11в.-Архітектура-19-ст.-Ампір.pptx"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #12a. Дерев’яна архітектура",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл12a.-Деревяна-архітектура.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #12б. Дерев’яна архітектура",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл12б.-Деревяна-архітектура.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #12в. Дерев’яна архітектура – реґіональні типи будови",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл12в.-Деревяна-архітектура-реґіональні-типи-будови.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #13. Новітний український національний стиль",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-13.-Новітний-український-національний-стиль.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #14 а. Будівництво за часів СССР",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-14-а.-Будівництво-за-часів-СССР.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #14 б. Будівництво за часів незалежної України",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/9-кл.-Лекція-14-б.-Будівництво-за-часів-незалежної-України.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #14 в. Українське будівництво в діяспорі",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-14-в.-Українське-будівництво-в-діяспорі.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #14 г. Українське будівництво в діяспорі",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-14г.-Українське-будівництво-в-діяспорі.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #15. Скульптура – вступ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/9-кл.-Лекція-15.-Скульптура-вступ.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #16. Різьба часів Ренесансу, Барокко, Рококо і Клясицизму",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-16.-Різьба-часів-Ренесансу-Барокко-Рококо-і-Клясицизму.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #17 а. Різьба 19-го і 20-го століть – 19-те століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-16-а.-Різьба-19-і-20-століть.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #17 б. Різьба",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-17-б.-Різьба-19-і-20-століть-20-те-століття.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "19-го і 20-го століть",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-16-а.-Різьба-19-і-20-століть.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "– 20-те століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-17-б.-Різьба-19-і-20-століть-20-те-століття.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #17 в. Різьба 19-го і 20-го століть – соцреалізм",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-16-в.-Різьба-19-і-20-століть.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #17 г. Різьба 19 і 20 століть – сучасні різьбалі",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/9-кл.-Лекція-17-г.-Різьба-19-і-20-століть-сучасні-різьбалі.pdf"
+  },
+  {
+   "group": "Культура 9",
+   "t": "9 кл. Лекція #18. Олександер Архипенко",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/9-кл.-Лекція-18.-Олександер-Архипенко.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "https://www.dropbox.com/sh/j5wryrtp7m0717i/AAD5scLM2Qi0SBI8SH-RC4GFa?dl=0",
+   "u": "https://www.dropbox.com/sh/j5wryrtp7m0717i/AAD5scLM2Qi0SBI8SH-RC4GFa?dl=0"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #1 . Малярство – вступ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/10-кл1-.-Малярство-вступ.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #2. Малярство княжої доби",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2022/11/10-кл.-Лекція-2.-Малярство-княжої-доби.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #3 а. Візантійський стиль",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-3а.-Візантійський-стиль.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #3 б. Візантійський стиль – ікони",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-3б.-Візантійський-стиль-ікони.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #3 в. Візантійський стиль – іконостаси",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-3в.-Візантійський-стиль-іконостаси.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #4 а. Українське малярство XІV-XVII ст. – ґотицький стиль і ренесанс",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-4а.-Українське-малярство-XІV-XVII-ст.-Ґотицький-стиль-і-ренесанс.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл Лекція #4 б. Українське малярство XІV-XVII ст. – барокко і рококо",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл-Лекція-4б.-Українське-малярство-XІV-XVII-ст.-Барокко-рококо-і-класицизм.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #4 в. Українське малярство XІV-XVII ст. – класицизм",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-4в.-Українське-малярство-XІV-XVII-ст.-класицизм.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #5. Тарас Шевченко – маляр",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/10-кл.-Лекція-5.-Тарас-Шевченко-маляр.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #6. Українське малярство ХІХ століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/10-кл.-Лекція-6.-Українське-малярство-ХІХ-століття.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #7. Українські малярі-імпресіоністи ХІХ-ХХ ст.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/10-кл.-Лекція-7.-Українські-малярі-імпресіоністи-ХІХ-ХХ-ст..pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #8а. Українські малярі на початку ХХ ст. – авангардисти – модернізм, кубізм, сецесія, футоризм.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-8а.-Українські-малярі-на-початку-ХХ-ст.-авангардисти-модернізмн-кубізм-сецесія-футоризм..pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #8б. Українські малярі на початку ХХ ст. – супрематизм, конструктивісти, інші українські модерністи.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл8б.-Українські-малярії-на-початку-ХХ-ст.-авангардисти.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #8в. Українські малярії на початку ХХ ст. – неовізантизм і монументалізм",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-8в.-Українські-малярії-на-початку-ХХ-ст.-неовізантизм-і-монументалізм.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #9а. Українське малярство під совєтською окупацією – соцреалізм",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-9а.-Українське-малярство-під-совєтською-окупацією-соцреалізм-1.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #9б. Українське малярство під совєтською окупацією – неконформісти",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-9б.-Українське-малярство-під-совєтською-окупацією-неконформісти-1.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #10а. Сучасний розвиток українського малярства – імпресіоністи, експресіоністи",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/10-кл.-Лекція-10а.-Сучасний-розвиток-українського-малярства-імпресіоністи-експресіоністи.pptx"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #10б. Сучасний розвиток українського малярства – монументалісти і неовізнтисти",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/10-кл.-Лекція-10б.-Сучасний-розвиток-українського-малярства-монументалісти-і-неовізнтисти.pptx"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #10в. Сучасний розвиток українського малярства – сюреалісти і реалісти",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/10-кл.-Лекція-10в.-Сучасний-розвиток-українського-малярства-сюреалісти-і-реалісти.pptx"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #10г. Сучасний розвиток українського малярства – національний стиль і примітивісти",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/04/10-кл.-Лекція-10г.-Сучасний-розвиток-українського-малярства-національний-стиль-і-примітивісти.pptx"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #11a. Графіка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-11a.-Графіка.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #11б. Графіка княжої доби",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/10-кл.-Лекція-11б.-Графіка-княжої-доби.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #12. Графіка XV –XVIII ст. Початки та розвиток граверства",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/10-кл.-Лекція-12.-Графіка-XV-–XVIII-ст.-Початки-та-розвиток-граверства.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #13. Графіка XІХ і початку XХ ст",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/10-кл13.-Графіка-XІХ-і-початку-XХ-ст.pdf"
+  },
+  {
+   "group": "Культура 10",
+   "t": "10 кл. Лекція #14. Сучасна українська графіка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/09/10-кл.-Лекція-14.-Сучасна-українська-графіка.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "https://www.dropbox.com/sh/yrh3vpfqbjzvgud/AAD0e5EVi01h_8MvTkO8Qc31a?dl=0",
+   "u": "https://www.dropbox.com/sh/yrh3vpfqbjzvgud/AAD0e5EVi01h_8MvTkO8Qc31a?dl=0"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 1а. Музика – вступ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/11-кл.-Лекція-1а.-Музика-вступ.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 1б. Музика – обр’ядові пісні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/11-кл.-Лекція-1б.-Музика-обрядові-пісні.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 1в. Музика – лірично побутові пісні",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/11-кл.-Лекція-1в.-Музика-лірично-побутові-пісні.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 1г. Музика – думи",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/11-кл.-Лекція-1г.-Музика-думи.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 2. Українські народні музичні інструменти",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/10/11-кл-2.-Українські-народні-музичні-інструменти.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 3. Українська музика у княжій добі",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/11/11-кл-3.-Українська-музика-у-княжій-добі.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 4. Золота доба української церковної музики",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/01/11-кл.-Лекція-4.-Золота-доба-української-церковної-музики.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 6. Українська музика ХІХ ст",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2023/02/11-кл.-Лекція-6.-Українська-музика-ХІХ-ст.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 5. Микола Лисенко",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/11-кл.-Лекція-5.-Микола-Лисенко.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 6. Українська музика ХІХ ст",
+   "u": "https://www.dropbox.com/s/fbwdls3w3zi2nmk/11%20%D0%BA%D0%BB.%20%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F%20%23%206.%20%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%A5%D0%86%D0%A5%20%D1%81%D1%82.pptx?dl=0"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 7. Послідовники М. Лисенка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/11-кл.-Лекція-7.-Послідовники-М.-Лисенка.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл. Лекція # 8. Українська музика першої половини ХХ ст.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2016/10/11-кл.-Лекція-8.-Українська-музика-першої-половини-ХХ-ст..pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 9а. Українська музика другої половини ХХ ст",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/11-кл-Лекція-9а.-Українська-музика-другої-половини-ХХ-ст.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 9б. Українська музика другої половини ХХ ст",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/11-кл-Лекція-9б.-Українська-музика-другої-половини-ХХ-ст.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 14. Український театер – вступ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/11-кл-Лекція-14.-Український-театер-вступ.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 15. Український театер козацьких часів",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/04/11-кл-Лекція-15.-Український-театер-козацьких-часів.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція #16. Український театр ХІХ століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/01/11-кл-Лекція-.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 17a. Український театер 20-го ст. 1900-1921",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/02/11-кл-Лекція-17a.-Український-театер-20-го-ст.-1900-1921.pdf"
+  },
+  {
+   "group": "Культура 11",
+   "t": "11 кл Лекція # 17б. Український театер 20-го ст. 1921-1933",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2019/02/11-кл-Лекція-17б.-Український-театер-20-го-ст.-1921-1933.pdf"
+  }
+ ],
+ "literature": [],
+ "history": [
+  {
+   "group": "",
+   "t": "Історія 7, Лекція #11 Володимир Великий",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-7-Лекція-11-Володимир-Великий.pdf"
+  },
+  {
+   "group": "",
+   "t": "Історія 7, Лекція #9 Хрещення Русі",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-7-Лекція-9-Хрещення-Русі.pdf"
+  },
+  {
+   "group": "",
+   "t": "Історія 7, Лекція #13 Володимир Великий – значення",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/Історія-7-Лекція-13-Володимир-Великий-значення.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #1. Галицько-Волиньська Держава – останнi князi (1264 – 1340)",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/10/Lesson-39-Галицько-Волиньська-Держава-–-останнi-князi-1264-–-1340.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #2. Економiя Київської Русi (800 – 1340)",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-40-Економiя-Київської-Русi-800-–-1340.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #3. Суцiльний устрiй Київської Русi",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-41-Суцiльний-устрiй-Київської-Русi.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #4 Політичний устрiй Київської Русi",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-42-Політичний-устрiй-Київської-Русi.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекцiя #5 Культурне життя в Київськi Русi",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекцiя-43-Культурне-життя-в-Київськi-Русi.doc"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #6 Кінець Галицько-Волинської Держави",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-44-Кінець-Галицько-Волинської-Держави.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #7. Українськi землi пiд Литвою (1340 – 1569)",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-45.-Українськi-землi-пiд-Литвою-1340-–-1569.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #8. Соцiяльнi та культурнi вiдносини в Українi XIV – XVI ст.",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/11/Лекція-46-Соцiяльнi-та-культурнi-вiдносини-в-Українi-XIV-–-XVI-ст.-.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #10. Братства, шкiльництво й меценати",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/48a.-Братства-шкiльництво-й-меценати.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. # 11. Запоріжжя – Край за порогами",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/Запоріжжя-Край-за-порогами.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #12",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/Lesson-64-Початки-козаччини-та-запорiжжя.pdf"
+  },
+  {
+   "group": "",
+   "t": "Початки козаччини і Запорізька Січ",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Початки-козаччини-і-Запорізька-Січ.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #13",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/8-кл.-65-Козацький-устрiй-та-звичаї.pdf"
+  },
+  {
+   "group": "",
+   "t": "Козацький устрій і звичаї",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Козацький-устрій-і-звичаї.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #14 а. Козацькі морські походи",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Козацькі-морські-походи.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #14 б. Початок реєстрованого козацтва",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Початок-реєстрованого-козацтва.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #15 а. Перші протипольські повстання",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Перші-протипольські-повстання-3.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. #15 б. Берестейська унія 1596",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Берестейська-унія-1596.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #16а Петро Конашевич Сагайдачний",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Історія-8-кл.-Лекція-16а-Петро-Конашевич-Сагайдачний.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #16б. Петро Конашевич Сагайдачний",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Історія-8-кл.-Лекція-16б.-Петро-Конашевич-Сагайдачний.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #16в. Петро Конашевич Сагайдачний",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/03/Історія-8-кл.-Лекція-16в.-Петро-Конашевич-Сагайдачний.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #17. Протипольські повстання 1625-1638",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/04/Історія-8-кл.-Лекція-17.-Протипольські-повстання-1625-1638.pdf"
+  },
+  {
+   "group": "",
+   "t": "8 кл. Лекція #18a. Богдан Хмельницький",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/05/Історія-8-кл.-Лекція-1-а.-Повстання-Богдана-Хмельницького-1648.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #8. Україна під Австрією і Росією",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-8.-Україна-під-Австрією-і-Росією.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #9. Україна (Гетьманщина) після 1781",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-9.-Україна-Гетьманщина-після-1781.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #10. Часи Реакції",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-10.-Часи-Реакції.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #11. Миколаївська доба",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-11.-Миколаївська-доба.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #12. Доба реформи",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-12.-Доба-реформи.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #14. Національне відродження",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-14.-Національне-відродження-.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #1. Доба Тараса Шевченка",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-15.-Доба-Тараса-Шевченка-.pdf"
+  },
+  {
+   "group": "",
+   "t": "Лекція #2. Суспільно політичний лад при кінці 19-го ст",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2017/02/Лекція-16.-Суспільно-політичний-лад-при-кінці-19-го-ст.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #3. Політично-економічний лад при кінці 19-го століття",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/Лекція-17.-Політично-економічний-лад-при-кінці-19-го-століття.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #4. Західна Україна при кінці 19-го століття (1870-1914)",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/10-кл.-Лекція-18.-Західна-Україна-при-кінці-19-го-століття-1870-1914.doc"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #5 Російсько-Японська війна і революція 1905 року",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/Лекція-19-Російсько-Японська-війна-і-революція-1905-року.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл #6. Україна на передодні Першої Світової Війни",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2018/11/10-кл20.-Україна-на-передодні-Першої-Світової-Війни.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #1. Вибух першої Світової Війни 1914",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/10-кл.-21.-Вибух-першої-Світової-Війни-1914.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #2 Останні роки Російської Імперії 1914-1917",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-2-Останні-роки-Російської-Імперії-1914-1917.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #3 Українська Народна Республіка 1918",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-3-Українська-Народна-Республіка-1918.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #4. Часи Гетьманату і Директорії",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/10-кл.-5.-Часи-Гетьманату-і-Директорії.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #6 Польська окупація українських земель,",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-1-Польська-окупація-українських-земель.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #5. Українські більшевики 1918 – 1921",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/10-кл.-15.-Українські-більшевики-1918-1921.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. #6. Радяньська Україна (1921 – 1932)",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2021/01/10-кл.-16.-Радяньська-Україна-1921-1932.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #8 Радянська Україна 1921-1932 – Українізація",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-8-Радянська-Україна-1921-1932-Українізація.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #5 Радянська Україна 1928-1933 – Колективізація",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-5-Радянська-Україна-1928-1933-Колективізація.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #9 Радянська Україна 1932-1939 – терор",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-9-Радянська-Україна-1932-1939-терор.pdf"
+  },
+  {
+   "group": "",
+   "t": "10 кл. Лекція #10 Закарпаття і Буковина 1919-1939",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2026/10/10-кл.-Лекція-10-Закарпаття-і-Буковина-1919-1939.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #1. Україна після Другої Світової Війни 1945 – 1953",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2023/02/Україна-після-Другої-Світової-Війни-1945-1953.pdf"
+  },
+  {
+   "group": "",
+   "t": "11. кл. #2. Доба Хрущова і відлига 1954-1964",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2023/02/Доба-Хрущова-і-відлига-1954-1964.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #3. Період національної свідомості 1956-1970",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2023/02/1960-1970-Період-національної-свідомості.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #4. Шістдесятники 1960-1970",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2023/02/1960-1970-Шістдесятники.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. Лекція #6. 1964 – 1984 Брежнєв, Щербицький і нові репресії",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2024/02/11-кл.-Лекція-N6-1964-1984-БрежнєвJ-Щербицький-і-нові-репресії.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #7. 1972 – 1984 Гельсінська група",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2024/02/1972-1984-Гельсінська-група.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #9. Президент Леонід Кравчук 1991-1994",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/02.-Президент-Леонід-Кравчук-1991-1994.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. # 10 Президент Леонід Кучма 1994-2005",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/06.-Президент-Леонід-Кучма-1994-2005.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл. #15. Конституція України",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/11-кл.-14.-Конституція-України.pdf"
+  },
+  {
+   "group": "",
+   "t": "11 кл.#16. Верховна Рада України",
+   "u": "https://ukrainianschooldetroit.org/wp-content/uploads/2020/02/11-кл.14.-Верховна-Рада-України.pdf"
+  }
+ ]
+}
